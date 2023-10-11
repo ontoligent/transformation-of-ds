@@ -4,6 +4,7 @@
 
 <!--# A shared understanding of the origins of our words and ideas in this context will allow us to create a rich and unified form of data science that may thrive in the long-term. This historical account is offered to contribute to that shared understanding.-->
 
+<!--#
 ## Timeline
 
 1.  Origins: A Deluge of Data
@@ -11,6 +12,7 @@
 3.  The Bird Forgets to Sing
 4.  The Sexy Science
 5.  Aftermath: Let Us Own Data Science
+-->
 
 Historically, there are two primary usages of "data science": the classical and the statistical.
 
