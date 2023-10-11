@@ -20,7 +20,6 @@ book:
   
   - part: "Evidence"
     chapters:                         
-    - chapters/00-synopsis.qmd               # Synopsis
     - chapters/02-history-1960s.qmd          # Origins
     - chapters/03-history-1970s-and-80s.qmd  # Classical DS
     - chapters/04-history-1990s.qmd          # Statistics Disrupted
@@ -30,6 +29,7 @@ book:
   
   - part: "Interpretation"
     chapters:
+    - chapters/00-synopsis.qmd               # Synopsis    
     - chapters/08-history-interpretation.qmd # Conclusion
   
   - references.qmd
