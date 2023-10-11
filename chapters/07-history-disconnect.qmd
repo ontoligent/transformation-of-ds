@@ -1,0 +1,262 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# 2012
+
+## Tanaka and the JJSCS
+
+<!--# "There appeared different types of unstructured massive data" -->
+
+In 2018 the *Journal of the Japanese Society of Computational
+Statistics* decided to add "and Data Science" to the end of its name. In
+an article justifying this change, the Japanese statistician Yutaka
+Tanaka described the effects of "advances in computer and information
+technology" since 2008, the years that saw the rise of second-wave of
+classical data science:
+
+> Since around a decade ago \[i.e. 2008\] the environment of statistics
+> has been changing due to advances in the computer and information
+> technology, and accordingly it has strong effect \[sic\] on
+> statistical science especially computational statistics. Let us
+> briefly review what happened. *In traditional statistics the data is
+> usually obtained with experiment or survey. There appeared different
+> types of unstructured massive data*. They are obtained in scientific
+> research and business, etc., for example, research in genomics,
+> environmental science, medical science and meteorology, and in
+> business activities to extract useful information on the web, POS,
+> IoT, etc. They are called "Big Data" [@tanaka2018: 75-76; emphasis
+> added].
+
+He went on to describe the close association between these changes and
+the rise of data scientists:
+
+> "Data Scientists" receive attention as professionals to derive
+> valuable insights from such data. Ideally it is required for data
+> scientists to have (1) programming skills for processing structured
+> and unstructured data, (2) analytical skills for using appropriate
+> methods in statistics and machine learning, and (3) business skills
+> for understanding the problems to be solved as well as for deriving
+> business insights from the results of analysis and reporting with
+> appropriate visualization techniques to decision makers. Talent with
+> the second category of skills is called deep analytical talent in MGI
+> report mentioned below. Expression of the third category is for
+> business application, but it will be easy to transform the expression
+> for applications in science (76).
+
+This recognition, and the addition of the name data science to an
+established journal of computational statistics was not an isolated
+incident at this time. It represented a significant development in the
+years immediately following the emergence of second-wave classical data
+science---the perception by professional statisticians that all of this
+occurred independently of their field, and that statisticians would do
+well to take advantage of the new interest in data that was sweeping the
+business world.
+
+## 2012 AmStatNews
+
+In a series of surprisingly candid editorials in *AmStatNews*---the
+membership magazine of the American Statistical Society---no fewer than
+three succeeding presidents of the organization, from 2012 to 2014,
+offered their views on what they saw as a troubling "disconnect" between
+the field of statistics and data science.
+
+This disconnect---between the self-perception among statisticians that
+they already are data scientists and their exclusion from real
+developments in industry and the media under the name of big data---is
+captured by this anecdote given by Marie Davidian in her column,
+entitled "Aren't We Data Scientists?":
+
+> I was astonished to review the list of founding members \[of the
+> National Consortium for Data Science (NCDS) based in North Carolina\]
+> and see that not only is my university (North Carolina State) a
+> founding member, but so are Duke University and UNC-CH. Along with SAS
+> Institute; Research Triangle Institute International; NIH's National
+> Institute for Environmental Health Sciences; IBM; and several other
+> institutions, businesses, and government agencies that employ numerous
+> statisticians. The member representatives listed on the website from
+> NC State, Duke, and UNC-CH are computer scientists/engineers, and
+> among all 17 representatives, *there is not one statistician*
+> [@davidian2013: 3; emphasis added].
+
+The gap was noted a year earlier by Robert Rodriguez, but without the
+surprise:
+
+> A recurring theme in Big Data stories is the scarcity of "data
+> scientists"---the term used for people who can draw insights from
+> large quantities of data. This shortage was highlighted in an April
+> 26, 2012, *Wall Street Journal* article titled, "Big Data's Big
+> Problem: Little Talent" [@rooney2012]. The question "What is a data
+> scientist?" is still being debated (see the articles with this title
+> at Forbes). However, *there is consensus that data scientists must be
+> innovative problem solvers with expertise in statistical modeling and
+> machine learning, specialized programming skills, and a solid grasp of
+> the problem domain*. Hilary Mason, chief data scientist at bitly, adds
+> that "*data scientists are responsible for effectively communicating
+> the things that they learn. That might be creating visualizations or
+> telling the story of the question, the answer, and the context*"
+> [@rodriguez2012: 3-4; citation and emphases added].
+
+It is notable that Rodriguez clearly recognized the reality behind the
+disconnect, conceding that "our profession and the ASA have not been
+very involved in Big Data activities." He did not trivialize the
+concepts of big data and data science; instead, he patiently explained
+their distinctive features and provided suggestions for how
+statisticians can add value to these developments going forward. He
+suggested that statisticians should "view data science as a blend of
+statistical, mathematical, and computational sciences," and focus their
+efforts on how to "extract value from data not only by learning from it,
+but also by understanding its limitations and improving its quality.
+Better data matters because simply having Big Data does not guarantee
+reliable answers for Big Questions."
+
+In a subsequent editorial co-authored with the two succeeding presidents
+of the ASA, Rodriguez's recognition of the absence of statistics from
+data science and his strategy to focus on what statisticians do best is
+amplified and augmented:
+
+> Ideally, statistics and statisticians should be the leaders of the Big
+> Data and data science movement. Realistically, we must take a
+> different view. While our discipline is certainly central to any data
+> analysis context, *the scope of Big Data and data science goes far
+> beyond our traditional activities.* As Bob \[Rodriguez\] noted in his
+> column, the sheer scale and velocity of the data being generated from
+> multiple sources requires new data management and computational
+> paradigms. New techniques for analysis and visualization must be
+> developed. And communication and leadership skills are critical.
+>
+> We believe we should focus on what we need to do as a profession and
+> as individuals to become valued contributors whose unique skills and
+> expertise make us essential members of the Big Data team. . . . We
+> know statistical thinking---our understanding of modeling, bias,
+> confounding, false discovery, uncertainty, sampling, and
+> design---brings much to the table. We also must be prepared to
+> understand other ways of thinking that are critical in the Age of Big
+> Data and to integrate these with our own expertise and knowledge.
+>
+> We have had many discussions---among ourselves and with ASA members
+> who are familiar with Big Data---about strategies for achieving this
+> preparation and integration. These discussions have led to our joint
+> ASA presidential initiative to establish the statistical profession as
+> a valued partner in Big Data activities and to position the ASA in a
+> proactive and facilitating role. *The goal is to prepare members of
+> our profession to collaborate on Big Data problems.* Ultimately, this
+> preparation will bridge the disconnect between statistics and data
+> science [@rodriguez2013; emphases added].
+
+## Typical article
+
+[\@provost2013]
+
+Typical of the time.
+
+Shows a strong relationship to big data, decision-making, and data
+mining.
+
+Modeled strongly on data mining.
+
+## 2014 Let Us Own Data Science
+
+Not all academic statisticians were willing to concede the point that
+data science "goes far beyond our traditional activities." Indeed, many
+viewed data science as an invader of their territory. Bin Yu, then
+president of the Institute of Mathematical Statistics, exhorted her
+colleagues to "own data science" [@yu2014], echoing Davidian's
+exasperated observation that statisticians "already are" data
+scientists. To make her point, she defined the core components of data
+science---statistics, domain knowledge, computing, teamwork, and
+communication---and then traced each of these to the traits of various
+ancestors in her field. In this narrative, Harry Carver, Herman
+Hollerith, and John Tukey are all data scientists *avante la lettre*. In
+Yu's narrative Carver is an "early machine learner," and therefore
+machine learning is a province of statistics. Among her recommendations
+was to have statisticians use the term "data science" whenever possible,
+echoing the call to rebrand statistics as data science heard two decades
+earlier. She did not mince words: "Put 'data scientist' next to
+'statistician; on your website and resume, if your job is partly data
+science." Although the Japanese Society of Computational Statistics may
+not have been following her advice, their decision to rename their
+journal in 2018 is a striking case in point.[^1]
+
+[^1]: Note that Yu's call to statisticians to adopt the term data
+    scientist was clearly an appropriation, since she was quite aware
+    that others doing data science were doing things outside of the work
+    of traditional statistician. Her argument was that because, in her
+    estimation, statisticians already do most of the work of data
+    scientists do, it was OK for them to claim the whole field.
+
+## 2017 Donoho
+
+Yu's call to own data science is made again later, and more thoroughly,
+by Donoho in "50 Years of Data Science" [@donoho2017], which is
+essentially a manifesto for the annexation of data science by
+departments of statistics in response to the proliferation of academic
+programs associated with the new field. He charts out the territory of
+"Greater Data Science" (GDS)---a playful reversal of Chambers' earlier
+plea for a "greater statistics" that would be "based on an inclusive
+concept of learning from data"---and places statistics at its center
+[@chambersGreaterLesserStatistics1993: 1]. He locates GDS in a genealogy
+that begins with data analysis---a practice envisioned in the 1960s by
+his mentor at Princeton, the legendary mathematician John Tukey, who
+serves as the founding ancestor in this legitimating narrative. GDS is
+thus defined as "a superset of the fields of statistics and machine
+learning, which adds some technology for 'scaling up' to 'big data'"
+[@donoho2017: 745]. He also attempts to deflate the concept of big data,
+so central to contemporary understandings data science, by citing
+Holerith's punched card system, which was invented to process the
+unexpectedly large volume of data produced by the 1890 US census, as an
+early instance and therefore nothing new. Like Yu, Donoho's argument is
+that, beyond the introducing a few useful technologies, data science as
+a whole is nothing new. It is a scandal that it has emerged outside of
+the field of statistics and is represented in the media as a distinct
+field.
+
+Donoho's essay has been criticized for downplaying the contribution of
+computational technology to data science. In his response to it, Chris
+Wiggins, Chief Data Scientist of the *New York Times* and a professor at
+Columbia, sensed this and asserted that data science is a form of
+engineering that will be defined by its practitioners, not by academics
+trying to turn it into a (pure) science. In another response, Sean Owen,
+Director of Data Science at Cloudera, argued that Donoho's history
+excluded the significant contributions of data engineering [@donoho2017:
+764]. Elsewhere, Bryan and Wickham pointed out that, like many
+statisticians, Donoho mistakenly relegated computational work to
+superficial status while also missing "the full process of analysis" in
+which statistics "is but one small part" [@bryan2017]. In his defense,
+Donoho acknowledged his bias, but justified it by noting that although
+technological know-how is important, technologies are transitory and
+prone to rapid obsolescence, and therefore "the academic community can
+best focus on teaching broad principles---'science' rather than
+'engineering'" [@donoho2017: 765]. *Scientia longa, brevis ars.*
+
+It is beyond the scope of this essay to evaluate the arguments of Donoho
+and Yu. Suffice it to say that when Facebook was hiring data scientists
+in 2008, the fact that someone's academic field could claim Hollerith
+and Carver as data scientists would not have improved that candidate's
+chances of being hired. What is significant here for understanding the
+history of data science is the social underpinning of the observed
+disconnect between members of the established field of statistics and
+those of the emerging one of data science. By 2012, Breiman's
+observation that the developments in algorithmic modeling, and more
+generally data mining, "occurred largely outside statistics in a new
+community," was proven to be both true and prescient: that new community
+became one of the primary tributaries to data science, and the long
+standing opposition of statistics toward the beliefs of that
+community---evident in Donoho and his predecessors in the 1990s and
+early 2000s---became manifest.
+
+## 2023 Mayernik
+
+Discuss Mayernik's response to Donoho in CODATA's DSJ "Data Science as
+an Interdiscipline" [@mayernik2023].
+
+Compares data science to information science.
+
+Asks:
+
+> \(1\) What will be the focal points around which data science and its
+> stakeholders coalesce? (2) Can data science stakeholders use the lack
+> of disciplinary clarity as a strength? (3) Can data science feed into
+> an "empowering profession"?

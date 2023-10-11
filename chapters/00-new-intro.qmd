@@ -1,0 +1,17 @@
+# Introduction
+
+"Aren't *we* data science?" asked Marie Davidian, then president of the American Statistical Association in 2013 after noting that the newly formed National Consortium for Data Science did not include a single statistician among its founding members[@davidian2013].
+
+. The center, created to make North Carolina a national hub for data-intensive business and data science research, included
+
+after \... The HBR \...
+
+<https://magazine.amstat.org/blog/2013/07/01/datascience/>
+
+The question is worth investigating\... Yu's argument ....  Donohos formulation \...
+
+At issue is the understanding of value and the role of technology
+
+A question of language
+
+Method \...

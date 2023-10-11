@@ -1,0 +1,124 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Introduction
+
+::: epigraph
+The interests of data scientists---the information and computer scientists, database and software engineers and programmers, disciplinary experts, curators and expert annotators, librarians, archivists, and others, who are crucial to the successful management of a digital data collection---lie in having their creativity and intellectual contributions fully recognized.
+
+National Science Board, "Long-Lived Digital Collections: Enabling Research and Education in the 21st Century" [@simberloff2005: 27].
+:::
+
+Data science today is characterized by a paradox. The large number and
+rapid growth of job opportunities and academic programs associated with
+the field over the past decade suggest that it has matured into an
+established field with a recognizable body of knowledge. Yet consensus
+on the definition of data science remains low. Members and observers of
+the field possess widely variant understandings of data science,
+resulting in divergent expectations of the knowledge, skill sets, and
+abilities required by data scientists. Definitions, when they are not
+laundry lists, range from an expanded version of statistics to
+data-driven science to the science of data to simply the application of
+machine learning to so-called big data to solve real world problems.
+These differences cannot be reduced to so-called semantics; they reflect
+a range of deep-seated institutional commitments and values, as well as
+variant understandings about the nature of knowledge and science. The
+lack of shared understanding poses a significant problem for academic
+programs in data science: it inhibits the development of standards and a
+professional community, confounds the allocation of resources, and
+threatens to undermine the authority and long-term prospects of these
+programs.
+
+This essay approaches the problem of defining data science by describing
+how the collocation "data science," and its grammatical variants "data
+sciences" and "data scientist," have been used historically.[^1] The
+primary methods employed are close reading and precise seriation of
+textual evidence drawn from a representative collection of primary
+sources, including organizational reports, academic articles, news
+stories, advertisements, and other contemporary forms of evidence. These
+are used to infer the history of the term's social and institutional
+contexts of use as well as its denotative and connotative meanings.
+Extensive extracts are often presented, rather than paraphrased, as
+these in many cases provide the reader with direct and illuminating
+evidence for the meanings in question.[^2]
+
+[^1]: In this essay, a collocation is defined as a combination of two or
+    more words that function as a lexical unit. In contrast to a mere
+    n-gram, a collocation's usage is historically given and cannot be
+    inferred *a priori* by combining the definitions of its constituent
+    words. Throughout this essay, the collocation "data science" and it
+    variants are referred to as a term.
+
+[^2]: The arguments and observations made by the authors in each case
+    are represented in historical tense, not the textual present, which
+    is the usual custom in writing about the history of ideas. For
+    example, instead of saying that "Tukey argues P" in an essay from
+    the 1960s, the evidence is presented as "Tukey argued P." This is
+    done in order to ground the evidence in its social and historical
+    setting.
+
+This historiography is presented as a series of periods in which the
+term takes on a new or variant meaning, beginning with its initial usage
+in the 1960s to around 2012, when the phrase becomes a commonplace. It
+is shown that the phrase has a surprisingly continuous and consistent
+usage over this period. As usage of the phrase evolved, its meanings
+were always additions to and inflections on prior meanings; in no case
+did newer usages contradict what preceded them, nor did they appear as
+cases of random independent invention.
+
+The result is a picture of the transformation of a semantic complex that
+indexes a consistent set of technical, social, and cultural realities
+that constitute what may be called the situation of data science, a
+situation that motivates the writing of this essay. Anticipating
+follow-up research to this essay, this situation has been described
+repeatedly by data scientists of all stripes as a kind of data
+processing *pipeline*, a sequence of operations that begins with the
+consumption of data and ends with the production of data products,
+ranging from research results and visualizations to software services
+employed by various sectors of society.
+
+```{=html}
+<!--
+## Previous Work
+
+Attempts to define data science in a systematic way have appeared throughout its history. This history is covered in what follows. Among contemporary efforts are the following:
+
+-   Donoho [@donoho2017]. Motivated reasoning. Begs the question,
+    incomplete history, specious reasoning.
+-   Cao[@cao2017; @caoDataScienceThinking2018].
+-   Mayernik[@mayernik2023]. Provides a useful comparison to information
+    science.
+-   McQuillan [@mcquillan2018]. Critical perspective. Not sure if it's
+    relevant, though.
+    -   "Data science is not simply a method but an organising idea.
+        That is, an underlying shift in perspective and practices of the
+        kind that Kuhn called a paradigm (Kuhn 1996). This should be
+        appreciated when trying to critique data science based on the
+        occurrence of collateral damage. The commitment to adopting data
+        science in more and more areas of life will not be constrained
+        by limits such as data protection, because it is based on a new
+        normativity. Only a countercultural critique can dissect the
+        conditions that constitute the possibility of data science and
+        propose an alternative." (254)
+    -   "To grasp the essence of data science means examining the
+        algorithmic methods that make data science possible, in
+        particular, forms of machine learning" (254)
+    -   "Data science can be understood as an echo of the neo-platonism
+        that informed early modern science in the work of Copernicus and
+        Galileo." (254)
+    -   "Hence, the much-retweeted saying: 'Data Scientist (n.): Person
+        who is better at statistics than any software engineer and
+        better at software engineering than any statistician.' (Wills
+        2012)." (255)
+    -   "A broader framework for corrective action can be generated by
+        seeing that data science is in fact more than the sum of its
+        parts; that it represents a new way of structuring thought that
+        draws allegiance from
+        older historical currents and, as an organising idea, redefines
+        observations and norms; and that it has a social momentum
+        derived from both its metaphysical and machinic aspects." (259)
+-->
+```

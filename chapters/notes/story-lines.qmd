@@ -1,0 +1,81 @@
+# Story Lines
+
+New chapters
+
+## A Deluge of Data
+
+Begin with the setting ...
+
+-   The DSL
+-   Formed in 1963 in the AFCRL
+    -   Think tank
+    -   Joined the Communication Sciences Lab (CSL) and the Computer and Mathematical Sciences Lab (CMSL) in 1963. Botht the CSL and the CMSL were part of the Electronic Research Directorate with the AFCRL.
+        -   "Many of the large command and control systems that are now an important part of the national defense program had their inception in projects conceived and carried out by this group of scientists in the late 1940's and early 50's." [@scientif1958: 5 (NSF 62-17; No. 15 Sept 1962)]
+-   Focused on unstructured data, AI, visualization
+    -   Example Research
+    -   Captured in the concept of [dynamic data processing]{.underline}
+        -   Embodied in the DX-1, a descendant of the Whirlwind
+        -   Indeed, formed out of the two units that helped build SAGE
+            -   SAGE and RTCC
+            -   RTCC has origins in Battle of Britain, operations research
+            -   Data Processing Scientist, Data Reduction, Data Deluge
+        -   DDP and DX-1 generalized RTCC
+-   A concern for defining data
+    -   Data is machine-readable information
+
+## Classical Data Science
+
+-   Begin with Journal of Data Science (CODATA) editorial
+    -   CODATA formed in the 1960s from the same conditions that motivated DS
+    -   Take the name in the 2000s (Why so late?)
+-   The DSL was not isolated
+    -   Organizations
+    -   Job descriptions
+    -   Position Statements
+-   Influence on Naur?
+-   A Quiet Rise
+-   The transition to weather, etc.
+
+## The Bird Forgets to Sing
+
+-   The Tokyo School
+    -   Meta-Stat and the WWW
+    -   Hayashi's utterance
+-   The IFCS
+-   The US
+
+## The Sexy Science
+
+-   2008
+-   Sense-making
+-   2012
+-   Big Data
+
+## Let Us Own Data Science
+
+-   The statistics rebranded meme (and any science that has to call itself a science)
+-   The academic response
+-   Extracting value and making inferences
+-   Status of data mining (Breiman)
+-   The ambivalent status of technology
+
+## Lessons Learned
+
+-   Show all quotes from SDS that describe the relationship between computational technology and science; tools vs method
+-   Technology as episteme
+-   Abstractly, it is always possible for a discipline to claim "ownership" over a terrain that exceeds that which is represented by its actual output; reach always exceeds grasp.
+-   A practice-based understanding of disciplinary differences emphasize the devils in the details.
+-   The reality if the pipeline
+
+## The Pipeline
+
+-   A sociotechnical formation distinctive of post-war political economy
+-   An organizational model for SAGE to Google
+-   Elementary unit of the datasphere
+-   Invariant Structure
+    -   The pipeline as micro-narrative
+    -   Primary Sequence
+    -   Structural Elements
+    -   Principal Components
+
+## The Importance of Design

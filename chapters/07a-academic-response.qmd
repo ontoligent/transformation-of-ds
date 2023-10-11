@@ -1,0 +1,25 @@
+# The Academic Response
+
+After 2012, the field of data science and the cluster of associated activities associated with it grew exponentially. As mentioned above, this growth was associated with a high demand for data scientists, a story that continues to be covered by the news media. The response by institutions of higher education to train data scientists to meet industry demand was rapid and pronounced. Hundreds of master's degree programs in data science and closely related fields were established in the United States, often associated with the formation of institutes of data science. More recently, a handful of doctoral programs and schools of data science have emerged, along with undergraduate offerings to meet increasing student demand. The trend to create degree programs for the field continues unabated.
+
+One effect of these developments has been to stimulate a preferential attachment process within the network of disciplines that constitute the academy: as a field representing the "sexiest job of the 21^st^ century," attracting students, gifts, and internal resources, many adjacent disciplines---from systems engineering and computer science to statistics and a variety of quantitative and computational sciences---have sought to associate themselves with the field. Indeed, because data science per se has had no history in the academy, these contiguous fields have provided the courses and faculty out of which the majority of data science programs have been built. The result is that data science has become a complex and internally competitive patchwork of industrial and academic interests and perspectives, reflecting the broader engagement of society with data and its analysis beyond the concept of data science inherited from industry.
+
+## Rachel Schutt
+
+-   First data science course *per se*.
+
+-   Co-author of *Doing Data Science: Straight Talk from the Frontline* [@schuttDoingDataScience2013].
+
+-   Worked with "Google+ data science team" (see description):
+
+    > I was working on the Google+ data science team with an interdisciplinary team of PhDs. There was me (a statistician), a social scientist, an engineer, a physicist, and a computer scientist. We were part of a larger team that included talented data engineers who built the data pipelines, infrastructure, and dashboards, as well as built the experimental infrastructure (A/B testing). Our team had a flat structure. Together our skills were powerful, and we were able to do amazing things with massive datasets, including predictive modeling, prototyping algorithms, and unearthing patterns in the data that had huge impact on the product.
+    >
+    > We provided leadership with insights for making data-driven decisions, while also developing new methodologies and novel ways to understand causality. Our ability to do this was dependent on top-notch engineering and infrastructure. We each brought a solid mix of skills to the team, which together included coding, software engineering, statistics, mathematics, machine learning, communication, visualization, exploratory data analysis (EDA), data sense, and intuition, as well as expertise in social networks and the social space.
+
+-   PhD in Statistics from Columbia 2005 to 2009. [LinkedIn Profile](https://www.linkedin.com/in/rachelschutt/)
+
+-   Notably: worked at Google from 2008 to 2013. [LinkedIn Profile](https://www.linkedin.com/in/rachelschutt/)
+
+-   Proposed a course at Columbia in March 2012; Taught in Fall 2012.
+
+-   Vector for data science from industry into the academy.
