@@ -4,30 +4,29 @@ editor:
     wrap: 72
 ---
 
-# 2008 
+# 2008
 
 Around 2008 a decisive shift in the meanings of "data science" and "data
 scientist" took place. After nearly a half century of development, in
 which two broad and consistent usages had emerged---the classical and
 the statistical---the term was applied in a context that launched it
 into the public eye and increased its circulation by orders of
-magnitude.[^06-history-2008-2012-1] This context was the social media
-corporation of the Web 2.0 era, itself the inheritor of two crowning
-achievements of data processing engineering---the database and the
-Internet---catalyzed by Berners-Lee's invention of a global hypertext
-system.
+magnitude.[^1] This context was the social media corporation of the Web
+2.0 era, itself the inheritor of two crowning achievements of data
+processing engineering---the database and the Internet---catalyzed by
+Berners-Lee's invention of a global hypertext system.
 
-[^06-history-2008-2012-1]: According to the Google Books NGram Viewer,
-    using the English (2019) corpus with a smoothing factor of 3, the
-    corpus frequency of the bigram "data scientist" (case insensitive)
-    goes from 0.0000000613% in 2008 to 0.0000035018% in 2012 and
-    0.0000118327% in 2016. These are increases from 2008 of around 57
-    and 193 for 2012 and 2016 respectively. By comparison, frequency
-    actually *decreases* by .6 from 2000 (.0000000876%) to 2008,
-    although the difference here is probably not significant
-    statistically; the frequency is essentially flat. The trend is
-    similar for "data science," with increases of 11 and 56 times from
-    2008 to 2012 and 2016 respectively.
+[^1]: According to the Google Books NGram Viewer, using the English
+    (2019) corpus with a smoothing factor of 3, the corpus frequency of
+    the bigram "data scientist" (case insensitive) goes from
+    0.0000000613% in 2008 to 0.0000035018% in 2012 and 0.0000118327% in
+    2016. These are increases from 2008 of around 57 and 193 for 2012
+    and 2016 respectively. By comparison, frequency actually *decreases*
+    by .6 from 2000 (.0000000876%) to 2008, although the difference here
+    is probably not significant statistically; the frequency is
+    essentially flat. The trend is similar for "data science," with
+    increases of 11 and 56 times from 2008 to 2012 and 2016
+    respectively.
 
 ## Hammerbacher
 
@@ -35,20 +34,20 @@ According to what is perhaps the most popular article on the topic,
 *Harvard Business Review*'s "Data Scientist: The Sexiest Job of the
 21^st^ Century," the term "data scientist" was "coined in 2008 by \...
 D.J. Patil, and Jeff Hammerbacher, then the respective leads of data and
-analytics efforts at LinkedIn and Facebook"
-[@davenport2012].[^06-history-2008-2012-2] Although on its face this
-claim is obviously false, it appears to be correct in having identified
-the first usages of the term in this new context. Supporting this claim,
-in 2009 Hammerbacher published an essay recounting his experience as a
-data scientist at Facebook entitled "Information Platforms and the Rise
-of the Data Scientist" [@hammerbacher2009], where he explained the
-motivation for adopting the term:
+analytics efforts at LinkedIn and Facebook" [@davenport2012].[^2]
+Although on its face this claim is obviously false, it appears to be
+correct in having identified the first usages of the term in this new
+context. Supporting this claim, in 2009 Hammerbacher published an essay
+recounting his experience as a data scientist at Facebook entitled
+"Information Platforms and the Rise of the Data Scientist"
+[@hammerbacher2009], where he explained the motivation for adopting the
+term:
 
-[^06-history-2008-2012-2]: The title of this article was adapted from a
-    phrase used in 2008 by Hal Varian, chief economist at Google. In an
-    interview with McKinsey's James Manyika, Varian quipped: "I keep
-    saying the sexy job in the next ten years will be statisticians"
-    (McKinsey & Company 2009).
+[^2]: The title of this article was adapted from a phrase used in 2008
+    by Hal Varian, chief economist at Google. In an interview with
+    McKinsey's James Manyika, Varian quipped: "I keep saying the sexy
+    job in the next ten years will be statisticians" (McKinsey & Company
+    2009).
 
 > At Facebook, we felt that traditional titles such as Business Analyst,
 > Statistician, Engineer, and Research Scientist didn't quite capture
@@ -83,20 +82,19 @@ unreasonable effectiveness of data" and explained in an essay with that
 title [@halevy2009]. In this approach, the size of data is considered
 more important than the sophistication of models---"invariably, simple
 models and a lot of data trump more elaborate models based on less data"
-(9; also quoted by Hammerbacher).[^06-history-2008-2012-3] In essence,
-the new role of data scientist at Facebook was close to that of the data
-scientist for the British Antarctic Survey, i.e. the classical, not the
-statistical definition, with the added focus on machine learning.
-Indeed, Hammerbacher acknowledged the provenance of the term:
+(9; also quoted by Hammerbacher).[^3] In essence, the new role of data
+scientist at Facebook was close to that of the data scientist for the
+British Antarctic Survey, i.e. the classical, not the statistical
+definition, with the added focus on machine learning. Indeed,
+Hammerbacher acknowledged the provenance of the term:
 
-[^06-history-2008-2012-3]: By "simple," the authors meant few
-    assumptions about the nature of the data, such as are required by
-    data models that posit parametric distributions or causal relations
-    among features. The usage is ironic, since one of the differences
-    between the inferential models preferred by traditional
-    statisticians and predictive models is that the former are chosen
-    for their parsimony and interpretability, whereas the latter
-    notoriously have too many terms to interpret.
+[^3]: By "simple," the authors meant few assumptions about the nature of
+    the data, such as are required by data models that posit parametric
+    distributions or causal relations among features. The usage is
+    ironic, since one of the differences between the inferential models
+    preferred by traditional statisticians and predictive models is that
+    the former are chosen for their parsimony and interpretability,
+    whereas the latter notoriously have too many terms to interpret.
 
 > Outside of industry, I've found that grad students in many scientific
 > domains are playing the role of the Data Scientist. One of our hires
