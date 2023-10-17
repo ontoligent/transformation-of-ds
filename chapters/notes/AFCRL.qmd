@@ -1,0 +1,329 @@
+# The AFCRL
+
+## New Summary
+
+Data science was invented by the US Air Force in 1963.
+
+By data science, I mean an epistemic paradigm.
+
+1.  Quote the first report---identifies two broad areas: data and machinery.
+2.  Provide details about each.
+3.  Discuss how they are related---the problem of impedance.
+4.  Describe the approach taken:
+    1.  dynamic measurement processes, aka dynamic data processing and dynamic modeling, involving human-in-the-loop approaches to complexity.
+    2.  Conversion of continuous signal data into discrete, vectorizable representations . . . See text on DX-1 representation as vector space
+5.  Emphasize the necessity of technology. Quote Licklider.
+    1.  A speech made by Licklider at a conference hosted by the Data Sciences Lab on speech and visual data holds a clue. He said: "\... computer programming is the only known way of producing testable representations of very complex situations or processes" (Wathen-Dunn 1967 \[1964\]: 23).
+
+    2.  It is hard to overestimate the significance of this claim. To understand it, it is helpful to go back to the work of von Neumann and the Princeton computer that was used to simulate the atomic reaction of the  first hydrogen bomb. \[Find reference to von Neumann's argument that statistics cannot be used in this context. And so is necessary to develop Monte Carlo methods.\]
+
+    3.  There is a genealogical connection between Von Neumann's work and that of the data scientist lab. In any case, it is helpful to see here the role of the computer in this early iteration of data science. It is not simply a tool to make calculations more convenient, nor is it simply an environment that could in principle be replaced by pencil and paper. It is the very condition of possibility of extracting meaning from certain kinds of data. This is a very important idea and we'll come back to it.
+
+    4.  "Statistical questions will be amenable to an entirely new kind of treatment," von Neumann had explained in January of 1945, while the ENIAC was still being built. "It will be possible to answer most questions of this type by performing the actual statistical experiment: by computing hundreds or thousands of special cases and registering their statistical distribution."44 A statistical approach to otherwise intractable physical problems had been taken up by others, including Enrico Fermi in the 1930s, but it took someone---and that someone was Stan Ulam, assisted by von Neumann and Nicholas Metropolis---to come up with a name for the technique and make it stick."
+
+        Excerpt From Turing's Cathedral George Dyson <https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewBook?id=0> This material may be protected by copyright.
+6.  Discuss the systems context and its generalization to weather.
+    1.  RTCC systems; SAGE.
+7.  Discuss legacy---EDA? DM?
+    1.  The DSL is dissolved in 1970.
+    2.  Appears to be replaced by Computation Center ... see movement of CM Walter.
+    3.  Geosciences
+        1.  For 22-year-old Enders Robinson, the allure of Whirlwind was extraordinarily fascinating and would lead him into a new career, one where he would revolutionize the field of geophysical exploration---basically, the search for oil.
+
+            Green, Tom. Bright Boys (p. 217). CRC Press. Kindle Edition.
+
+        2.  He had hit upon seismic research's core concept: converting continuous seismic traces into digital form and then using mathematical methods to enhance the data.
+
+            Green, Tom. Bright Boys (p. 218). CRC Press. Kindle Edition.
+8.  Linguistic clues.
+9.  Continuities---the Internet.
+
+## Notes
+
+Why the emphasis on visualization and human in the loop architectures?
+
+Dynamic data processing.
+
+And, why the emphasis on dynamic data processing?
+
+A speech made by Licklider at a conference hosted by the Data Sciences Lab on speech and visual data holds a clue. He said: "\... computer programming is the only known way of producing testable representations of very complex situations or processes" (Wathen-Dunn 1967 \[1964\]: 23).
+
+This is in the context of a paper on dynamic modeling.
+
+It is hard to overestimate the significance of this claim. To understand it, it is helpful to go back to the work of von Neumann and the Princeton computer that was used to simulate the atomic reaction of the  first hydrogen bomb. \[Find reference to von Neumann's argument that statistics cannot be used in this context. And so is necessary to develop Monte Carlo methods.\]
+
+There is a genealogical connection between Von Neumann's work and that of the data scientist lab. In any case, it is helpful to see here the role of the computer in this early iteration of data science. It is not simply a tool to make calculations more convenient, nor is it simply an environment that could in principle be replaced by pencil and paper. It is the very condition of possibility of extracting meaning from certain kinds of data. This is a very important idea and we'll come back to it.
+
+Go on to show the connection between dynamic modeling and exploratory data analysis on the one hand, that is, interactive pattern recognition, and data mining on the other.
+
+## Evidence
+
+### AFCRL Research Report 1962--1963
+
+[@afcrl1963]
+
+#### Units within the DSL
+
+![p. 259](images/paste-18.png){width="400"}
+
+#### Movement Towards Environmental Science
+
+The 1963 report describes a movement toward environmental sciences. This may be the reason why the word data scientist is used by environmental science organizations in the 1970s and 80s.
+
+> "The reorganization also resulted from a gradual change in the AFCRL mission toward research in the environmental sciences."
+
+Notice the connection between the AFCRL and the weather bureau.
+
+Page 9 of the 1963 report describes the self conscious way in which the AFCRL engaged in transferring knowledge.
+
+#### WSMR Collaboration
+
+White Sands missile Range is noted as having very close collaboration with AFCRL.
+
+#### Project Fishbowl
+
+> The AFCRL had a global net work of data collecting centers. (10)
+
+See discussion of project fishbowl on page 10. Began in December 1961 this project focus on nuclear weapons detonated in the upper atmosphere.
+
+> "Within the AFCRL laboratories are a number of small, highly specialized data processing equipments associated with particular research projects---speech bandwidth compression, video band width compression, biophysics, the study of the real-time, dynamic data processing, and so on. A need has existed for the past several years for a large scale, general-purpose computer within the laboratory complex. (Only a small-scale UNIVAC M460/1004 is available in the laboratory.) Lack of such a computer has forced AFCRL to rely on contrac tors for computer services. Through these contracts, AFCRL purchased an average of more than two hundred hours a month in computer time during the reporting period. This rate compares with approximately 75 hours a month only two years ago." (12-13)
+
+#### DX-1 Allusion
+
+> "The USAF has recognized the need for a general-purpose computer processing facility at AFCRL, and has approved such an installation. The detailed specifications for the system have been developed. Tentative schedules call for the installation of the computer during the latter part of 1964." (13)
+
+The preceding sounds like a reference to the DX-1.
+
+#### Initial Quote
+
+Regarding the initial quote that gives insight into the mission of the data, science laboratory, restrict yourself to the first two paragraphs, and then paraphrase the rest. These two paragraphs give the general structure, the fundamental opposition between production of data, new kinds of data, and the limitations of competition machine with the process now. That is the elementary structure that will be unpacked.
+
+> The most striking common factor in the advances of the major technologies during the past fifteen years is the increased use and exchange of information. Modern data processing and computing machinery, together with improved communications, has made it possible to ask for, collect, process and use astronomical amounts of detailed data. Data processing is the heart of the major Air Force systems---Satellite guidance, air defense, and command and control---and provides the primary impetus to yearly increases in national productivity.
+>
+> But in the face of this progress there is impatience with the limitations of existing machines. Just over the horizon there is promise of many brighter prizes. Achieving certain of these readily identifiable and technically feasible prizes is the goal of the Data Sciences Laboratory. ( 187)
+
+#### Quote Unpacked
+
+After this unpack the elements of the structure: the kinds of data, specifically how they are characterized.
+
+1.  **Systems**
+
+    1.  Satellite guidance
+    2.  Air defense
+    3.  command-and-control
+
+2.  **Data**
+
+    1.  "Astronomical amounts of detailed data"---data deluge
+    2.  Highly perishable information, real-time
+    3.  A considerable amount of the data, or **not numeric**, they are instead **audio and visual**.
+        1.  This, in fact, will be what the DSL will become known for.
+        2.  But other kinds of signals, from hearts and brains, will be studied by the lab too. Audio and visual data, or massive and redundant.
+    4.  Data are **masked and distorted**. There's a say, they are messy and noisy.
+        1.  Seismic data, radio propagation data, radar and infrared surveillance data, bioelectric data, etc.
+    5.  Electromagnetic media
+    6.  The report is describing what is elsewhere of the time described as a data deluge, say quotes, and will be later called big data or 3-D data.
+
+3.  **Machines**
+
+    1.  Shortcomings noted --- they are just calculators and speed will do nothing to improve them.
+
+    2.  The bottle neck of **human computer interaction**. I need for approved methods of what letter is called. Dynamic of the processing. Here as elsewhere it is of a Science of the DSL builds machinery. Later, come back to this point because it is the essential one. The machinery is the medium. It is not a convenient substitute for pencil and paper (Turkey).
+
+    3.  Data processing research is tending in the direction of **artificial intelligence**. We must design computers that incorporate artificial intelligence.
+
+    4.  DSL focused on *building machines* ...
+
+    5.  "radical changes in the organization and the ways of communicating with computers have to be evolved" (188)
+
+Something to note here that will be brought up later. All of these data or non-experimental in the sense that would be understood by a statistician. All of them are electronic, as is fitting with the Directorate. And again technology is portrayed as the means by which these problems would be solved.
+
+The offices on computing machinery, as a function of the perceived role, that machinery to process this kind of data by means of artificial intelligence.
+
+#### Specific research areas
+
+1.  Organization and language of **computers**
+    1.  Logic Network analysis
+    2.  Uniform logic structures and their realization
+    3.  Circuit theory
+    4.  Computer languages
+    5.  Problem oriented symbol processor
+2.  Processing of audio visual **information (data)**
+    1.  The rule of voicing in speech productions
+    2.  The human speech perception process
+    3.  The physical speech signal
+    4.  Digital speech compression
+    5.  Video compression
+    6.  Processing visual information
+    7.  Biophysical information systems
+3.  **Processing stochastic information**
+    1.  Information theory
+    2.  **Dynamic measurement processes** (DX-1)
+4.  **Artificial intelligence**
+    1.  Theorem proving
+
+    2.  Geometric analogy problems
+
+    3.  **Pattern classification**
+
+#### Dynamic Measurement Processes
+
+Among the salient areas, this stands out:
+
+> A new theory of sensor measurement data processing has been evolved at AFCRL. This effort is an outgrowth of a generalized algebra of measurement developed by J. Schwinger at Harvard. It is also closely related to work on general signal analysis by W. H. Huggins at Johns Hopkins, and to a theory of attribute perception by P. Greene at Chicago. Basically, it provides a mechanism for extracting minimal sets of invariant attributes from the raw measurement data. The mechanism used is derived from a small family of principles which any measurement, or instrumentation procedure, must satisfy. The three most important principles are: 1) reproducibility of extracted attributes; 2) mutual exclusiveness of the attributes; 3) completeness of the set of extracted attributes. (204)
+
+Embodied by by the DX-1.
+
+Applied to many domains.
+
+### News and Notes 1963
+
+-   [@venkateswaran1963]
+-   Venkateswaran, S. V. 1963. "News and Notes: Reorganization of AFCRL." *Bulletin of the American Meteorological Society* 44 (9): 548--629.
+-   Formed from the Mathematical Sciences Lab and the Communication Sciences Lab
+-   Noted in the weather journal --- related to legacy
+
+![p. 624](images/paste-19.png){width="400"}
+
+### AFCRL Research Report 1963--1965
+
+#### Specific Research Areas
+
+6 groups, 20 areas
+
+1.  Computer Languages
+    1.  Languages in Perspective
+    2.  Grammars and Compilers
+    3.  On-line Use of Computers
+    4.  Theorem Proving
+2.  Recognition Processes
+    1.  Model of Visual Perception
+    2.  Character Recognition
+    3.  **Dynamic Measurement Processes**
+3.  Information Theory
+    1.  Properties of Error-Correcting Codes
+    2.  Applications of Error Detection and Correction
+    3.  Communications over Scatter Channels
+4.  Biophysical Information Systems
+    1.  Instrumentation and Program
+    2.  Visual Cortex of Cats
+5.  Speech and Visual Information
+    1.  Voicing
+    2.  Speech Perception
+    3.  Speech Compression Research
+    4.  New Voice Synthesizers
+    5.  Narrow-Band TV Displays
+6.  Networks, Circuits and Theory
+    1.  Networks and Circuits
+    2.  Logic Network Analysis
+    3.  Fabricating Uniform Modifiable Logic Structures
+
+### AFCRL Research Report 1965--1967
+
+#### Specific Research Areas
+
+4 groups, 22 areas
+
+1.  Recognition Processes
+    1.  General Description of Complex Patterns
+    2.  Character Recognition
+    3.  Visual Pattern Extraction
+    4.  Dynamic Measurement Processes
+2.  Communications
+    1.  Mechanisms of Speech Production
+    2.  Intonation and Perception
+    3.  Optimum Speech Filter
+    4.  Speech Processing
+    5.  Speech Pattern Matching
+    6.  Narrow-band Television
+    7.  Analog Transmission
+    8.  Error Correcting Codes
+3.  Computer Languages and Programs
+    1.  Languages in Perspective
+    2.  Grammars and Compilers
+    3.  Transformational Grammars
+    4.  On-Line Use of Computers
+    5.  Theorem Proving
+4.  Logic Networks and Circuits
+    1.  Polyfunctional Nets
+    2.  Sequential Behavior of Nets
+    3.  Circuit Theory
+    4.  Domain Tip Logic Devices
+    5.  Other Contractor Programs
+
+### AFCRL Research Report 1967--1970
+
+#### Specific Research Areas
+
+4 groups, 15 areas
+
+1.  Computer Languages and Programming
+    1.  Computer Linguistics
+    2.  Parsing Efficiency
+2.  Cognitive Processes
+    1.  Processing of Photographic Data
+    2.  General Description of Complex Patterns
+    3.  Automatic Character Reading
+    4.  Multi-Sensor Data Interpretation
+3.  Speech and Data Transmission
+    1.  Speech Processing
+    2.  Speech Pattern Matching
+    3.  Speech Perception
+    4.  Mechanisms of Speech Production
+    5.  Analog Data Transmission
+    6.  Error Correcting Codes
+4.  Implementation
+    1.  Circuit Theory
+    2.  Logic Networks
+    3.  Regular, Modifialbe Nets
+
+### AFCRL Research Report 1970--1972
+
+DSL eliminated due to manpower reductions.
+
+A Compution Center seems to have replaced the DSL.
+
+> **AFCRL COMPUTATION CENTER:** A 43,000 square foot, two-story structure was occupied in November 1970 by the AFCRL Computation Center. The AFCRL Command Section, the Director of Technical Plans and Operations, and the Director of Research Services were also moved to this building at that time. One CDC 6600 computer system was installed in December 1970 and a second 6600 was installed in July 1972.
+>
+> p\. 4
+>
+> The Computation Center also provides mathematical analysis and scientific programmer services and operates a large scale analog/hybrid computation facility in support of simulation studies.
+>
+> p\. 5
+
+## 
+
+### AFCRL Research Report 1972--1974
+
+![](images/paste-21.png){width="400"}
+
+Note the C. M. Walter is moved to the Computation Branch ... DS becomes CS.
+
+But the story does not end there ...
+
+## Summary
+
+The AFCRL focused on these domains:
+
+-   **Computer Technology**
+    -   Hardware: circuits and networks
+    -   Software: languages
+-   **Processing Tasks**
+    -   Error Correction
+    -   Feature Extraction
+    -   Recognition and Classification
+-   **Data Types**
+    -   Audio
+    -   Visual
+
+Far from being a random collection of tasks, these corresponded to elements of a system:
+
+DATA -\> PROCESSING -\> VISUALIZATION
+
+The exemplar for this was the SAGE ...
+
+-   Prototypical data processing system --- RTCC of radar data, pioneered networked computing, digital computing, visualization . . .
+-   Shared grounds with the Lincoln Lab
+-   The two units from which the DSL was created contributed significantly
+
+Although DS leaves the AFCRL, it lived on in WSMR and elsewhere . . .

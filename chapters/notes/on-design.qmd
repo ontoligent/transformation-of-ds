@@ -1,0 +1,20 @@
+# On Design
+
+## Chien 1976
+
+Chien, Y.T. 1976. "Interactive Pattern Recognition: Techniques and Systems." *Computer* 9 (5): 11--25. <https://doi.org/10.1109/C-M.1976.218582>
+
+Discusses **interactive statistical signal analysis ... INTRODUCES CONCEPT OF DESIGN IN 1976:**
+
+> Of the three elements that influence the pattern recognition work, the element of people is perhaps the most critical. By its very nature, pattern recognition must relate to people-i.e., the designer, the user. Therefore, the concepts and methodology of data acquisition, pattern analysis, and pattern classification must be developed to suit human requirements and talents. To achieve this, two types of human-machine interaction must be provided. First, it is essential to provide a convenient facility for interaction among people. *This is the aspect of human-to-human communication*. Second, at each stage of the pattern recognition problem, the acquired data as well as the computational results from analysis and classification must be matched to capabilities of the people. *This is the aspect of human-to-machine communication*. Both aspects of communication need to be structured in order to strengthen human judgement and intervention.
+
+## Tukey 1977
+
+-   EDA is a treatise on visualization.
+-   Compare to interactive pattern recognition.
+
+> **The greatest value of a picture** is when it *forces* us to notice **what we never expected to see** [@tukey1977: vi; emphases in original].
+
+![](images/paste-4.png)
+
+![](images/paste-5.png)

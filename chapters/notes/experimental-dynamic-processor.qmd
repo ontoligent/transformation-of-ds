@@ -1,32 +1,310 @@
-<https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1450810>
+# Dynamic Data Processing and the DX-1
+
+## Dynamic Data Processing
+
+-   Defines the research focus of the DSL.
+-   Emboding in the DX-1.
+-   Inherited from SAGE.
+-   Related concepts
+    -   Interactive statistical signal analysis
+    -   Interactive pattern recognition
+    -   Note that EDA dates to 1970 or so ...
+
+### AFCRL 1961--1962
+
+![](images/paste-16.png){width="400"}
+
+![](images/paste-15.png){width="400"}
+
+### AFCRL 1962--1963
+
+-   @afcrl1963
+
+> **Dynamic measurement processes:** Dynamic measurement processing is concerned with the real-time analysis of sensor data---visual patterns, electromagnetic signals, acoustical phenomena and so on---for the purpose of identify ing and extracting from these data certain characteristic attributes. The data from various sensors such as radio telescopes, spectrometers, ion gauges aboard satellites, are often noisy, redundant and difficult to interpret. Interpretation itself is sometimes highly subjective. The information may have different meaning to different observers, depending on their particular point of view and their particular interest. Research on dynamic measurement processes at AFCRL is mainly focused on the question, \"What is there that is common to all sensor measurement processes?\"
+>
+> The question has particular relevancy to sensor data from space probes. There is strong competition for limited telemeter channel capacity among various experimental packages. But a more basic consideration is the cost of data analysis in which individual techniques and machines are usually developed for each type of measurement. AFCRL hopes to uncover common features of diverse measurement techniques.
+>
+> Both the common attributes of diverse types of sensory data and the distinctive attributes of a particular type of data are sought. In almost all physical phenomena there are recurring cycles, subtle patterns, complex rhythms, and characteristic behaviors, and these may not be apparent to the observer. Science is built on the discovery and classification of these recurring patterns. They form the basis for classical mathematical models. These models assume that all the key parameters have been identified. Unfortunately, in dealing with many kinds of physical phenomena, there is an infinite multiplicity of rules by which a physical process might be described. The primary problem is, therefore, to discover sets of invariant attributes which describe the process in the simplest and most effective way, according to certain specified criteria.
+>
+> A new theory of sensor measurement data processing has been evolved at AFCRL. This effort is an outgrowth of a generalized algebra of measurement developed by J. Schwinger at Harvard. It is also closely related to work on general signal analysis by W. H. Huggins at Johns Hopkins, and to a theory of attribute perception by P. Greene at Chicago. Basically, it provides a mechanism for extracting minimal sets of invariant attributes from the raw measurement data. The mechanism used is derived from a small family of principles which any measurement, or instrumentation procedure, must satisfy. The three most important principles are: 1) reproducibility of extracted attributes; 2) mutual exclusiveness of the attributes; 3) completeness of the set of extracted attributes.
+>
+> Since the basic mechanism involved in this approach---an eigenfunction filter construction procedure---is shared by a wide variety of advanced sensor information extraction and consolidation systems, an extensive investigation into the theoretical, the programming, and the hardware aspects of this problem has been undertaken at AFCRL over the past three years.
+>
+> This work led to the specification of the DX-1 System. This highly specialized data processor has been in Operation at AFCRL for about a year. It is a unique machine for analyzing the characteristic attributes of sensor data. One of the most distinctive and interesting features of the processor is that it can present to the monitor its own particular view of the data being processed--- thus overcoming the limited and often parochial point of view of the monitor.
+>
+> The DX-1 System presents processed data on various display systems (one of these being a large color oscilloscope) for study and manipulation during the actual processing. The monitor can directly intervene in the analysis at any time, requesting the processor to analyze the data from a different perspective or in relationship to another parameter. The system is designed to permit rapid implementation of increasingly more complex processor configurations.
+>
+> Much of the programming effort associated with the system has been directed toward the development of convenient on-line means for exhibiting incoming signal data, and for both controlling and exhibiting the results of various processing operations carried out in real time on the incoming sensor data. Routines are now available for using the light pencil to alter the structure of information filters so as to readily ob serve the sensor data from alternative points of view. This capability is particularly useful when attempting to evaluate the relative merits of both ad hoc heuristic pattern recognition schemes, and various systematic attribute extraction and adaptive learning mechanisms.
+>
+> Cardiograph data and simulated mis sile detection data have been used to test the system. These tests indicate that people are not particularly good at at tribute extraction and pattern classification, except when dealing with patterns in a familiar context. Since what represents familiar context to one research worker depends on the process under observation, the observation mechanism, and the background of the observer, it is becoming increasingly clear that no single conventionally structured type of processing system and programming language will have either the utility, or the generality, previously believed possible in such systems.
+>
+> Additions to the storage and display segments of the DX-1 System are planned for the future. A flexible buffer Storage will be added and organized so that it can efficiently store arbitrary graphical information in incremental form, as well as numerical data and program instructions. An incremental, computer-controlled oscilloscope, having a flicker-free data capacity approxi mately 250 times greater than that of conventional point plotting digital oscilloscopes, has been developed and is being integrated into the System.
+>
+> To use this greatly enhanced graphic process monitoring capability effectively, several elaborate, open-ended programming systems have been evolved. The objective of these systems is to provide a flexible means for defining and manipulating any combination of inter related graphical, mathematical, and logical entities. It is essential to feed back to the scientist using an on-line dynamic processor, such as the DX-1, as much---or as little---contextual information as he needs in order to keep in mind just how he defined various mathematical entities and sensor processing operations, and what the control options are at each stage in the process monitoring operation.
+>
+> pp. 202--206.
+
+### 
+AFCRL 1963--1965
+
+-   [@afcrlReportResearchAFCRL1965]
+-   See also section "Model of Visual Perception" (192).
+-   Dynamic measurement processing is essentially real-time feature extraction to support classification.
+-   Method is to convert signals into N-dimensional vector spaces and perform eigenfunction decomposition.
+-   Signal types include "visual patterns, electromagnetic signals, acoustical phenomena and so on"
+-   Sensor sources such as "such as radio telescopes, spectrometers, and ion gauges aboard satellites" are "often noisy, redundant and difficult to interpret."
+
+> **DYNAMIC MEASUREMENT PROCESSES:** Recognition and classification is most difficult in cases where the data in question result from a dynamic stochastic process in which the data strongly interact with the environment. AFCRL's effort on dynamic data processing is particularly concerned with this situation. **Dynamic measurement processing is concerned with the realtime analysis of sensor data --- visual patterns, electromagnetic signals, acoustical phenomena and so on --- for the purpose of identifying and extracting from these data certain characteristic attributes.** The data from various sensors such as radio telescopes , spectrometers, and ion gauges aboard satellites are often noisy, redundant and difficult to interpret. Interpretation itself is sometimes highly subjective. The information may have different meaning to different observers, depending on their particular point of view and their particular interest. Research on dynamic measurement processes at AFCRL is mainly focused on the question, "What is there that is common to all sensor measurement processes?"
+>
+> A new theory relating to the measurement and analysis of sensor data evolved at AFCRL. The theory is an outgrowth of a generalized algebra of measurement developed by J. Schwinger at Harvard. It is also closely related to work on general signal analysis by W. H. Huggins at Johns Hopkins , and to a theory of attribute perception by P. Greene at Chicago. Basically, it provides **a mechanism for extracting minimal sets of invariant attributes from the raw measurement data**. The mechanism used is derived from a small family of principles which any measurement or instrumentation procedure must satisfy. The three most important principles are: 1 ) reproducibility of extracted attributes , 2 ) mutual exclusiveness of the attributes , and 3) completeness of the set of extracted attributes.
+>
+> To evaluate the relative merits of AFCRL's effort on dynamic data various measurement methods and different pattern recognition and property classification schemes, **an extensive signal data manipulation program** has been evolved. The program uses the AFCRL's Experimental Dynamic Processor (the DX-1), a memory-sharing, polymorphic, digital processor. **This program employs the modern technique of representing each signal as a single point in an N-dimensional vector space.** Initially, the coordinate describing the signal vectors may be taken as the set of measurements which serve to define the " raw" signal . The investigator is usually not interested in isolated signals , but rather in the mechanism which generates a given ensemble of "similar" signals --- for example, EEG signal data, or seismic data --- and how this mechanism varies from source to source. One may wish to know, for example, the variations in the electrocardiograph data of individuals with different cardiac disorders, or differences in natural and man-made seismic disturbances. Consequently, the goal of most pattern recognition research is to determine classification procedures which do the most effective job of classifying signals, given criteria of effectiveness.
+>
+> A key element of the instrumentation is a color display oscilloscope . Since the data classification procedures can be looked upon as transformations of the pattern vectors in the N-dimensional vector space, the display provides an extremely powerful tool for exhibiting just what any given classification scheme is doing. The color oscilloscope is ideally suited for exhibiting the customarily unseen intermediate results . Changes in the point of view from which the process is being observed can be made while the problem is running on the processor. Changes in the processing operation are entered through keyboard control. Functional alterations in the structure of data filters can be also entered directly in analog form by drawing on the face of the oscilloscope with a light pencil. This mode of communication is particularly useful in obtaining a feel for the effect of certain types of perturbation on the performance of the system .
+>
+> The characterization of signal data through the extraction of intrinsic attributes affords a new approach to data bandwidth compression . The effectiveness of this approach compared with classic approaches, such as Fourier analysis, is well illustrated by a decrease in the number of filter channels (by a factor of ten) needed for a given accuracy of resynthesis. The price paid for achieving this performance is the complexity of the eigenfunction filter construction procedure on which the intrinsic attribute extraction technique is based . Eigenfunction determination is basic to a class of problems extending from quantum theory to psychological test score evaluation . The central role of eigenfunction determination has led AFCRL to the study of a special processor capable of rapidly and economically determining the principal eigenfunctions of large stochastic matrices. Both electro-optical mechanisms and parallel digital subsystems, operating under the control of an on-line general purpose digital processor, are being investigated.
+>
+> pp. 195--197.
+
+### AFCRL 1965--1967
+
+> **DYNAMIC MEASUREMENT PROCESSES:** Recognition and classification is most difficult in cases where the data in ques tion result from a dynamic process in which the data strongly interact with the environment. Dynamic measurement processing is concerned with the real time analysis of sensor data---such as visual patterns, electromagnetic signals, and acoustical phenomena---for the purpose of identifying and extracting from these data certain characteristic attributes. The data from various sensors such as radio telescopes, spectrometers, and ion gauges aboard satellites are often noisy, redundant and difficult to interpret. Interpretation itself is Sometimes highly subjective. The information may have different meaning to different observers, depending on their particular point of view and their particular interest.
+>
+> Research on dynamic measurement processes at AFCRL is mainly focused on the question, "What is there that is common to all sensor measurement processes?" This question serves to generalize the problem and therefore releases the analyst from the restrictive conceptualizations that are inevitable when his vision is narrowly focused on the output from a sensor of a particular type. By way of analogy, the question is concerned with the common features that might be found in the data gathered by the eye and the ear that could serve as a basis for unified analytical scheme for both sets of data.
+>
+> The importance of this question arises from the growing quantity of data collected by surveillance and reconnaissance sensors of all types. A single mechanism for reducing these diverse data would be invaluable. Furthermore, the mechanism would be independent of new military sensors that continually evolve, and of the context of military Operations. This requires a built-in capability for taking into account the in teraction between the surveillance proc ess and the non-cooperative medium (target plus varying atmospheric parameters) under observation.
+>
+> A theory relating to the measurement and analysis of sensor data has been evolved at AFCRL. The theory is an out growth of a generalized algebra of measurement developed by J. Schwinger at Harvard. It is also closely related to work on general signal analysis by W. H. Huggins at Johns Hopkins, and to a theory of attribute perception by P. Greene at Chicago. Basically, it provides a mechanism for extracting minimal sets of invariant attributes from the raw measurement data. The mechanism used is derived from a small family of principles which any measurement or instrumentation procedure must satisfy. The three most important principles are: 1) reproducibility of extracted at tributes, 2) mutual exclusiveness of the attributes, and 3) completeness of the set of extracted attributes.
+>
+> To evaluate the relative merits of various measurement methods and different pattern recognition and property classification schemes, an extensive signal data manipulation program has been evolved. This program uses AFCRL's Experimental Dynamic Processor (the DX-1), a memory-sharing polymorphic, digital processor. This program employs the modern technique of representing each signal as a single point in an N-dimensional vector space. Initially, the coordinates describing the signal vectors may be taken as the set of measurements which serve to define the "raw" signal. The investigator is usually not interested in isolated signals, but rather in the mechanism which generates a given ensemble of "similar" signals---for example, electroencephalogram (brain wave) signal data---and how this mechanism varies from individual to individual. One may wish to know, as an additional example, the variations in the electrocardiograph data of individuals with different cardiac disorders, or differences in natural and man-made seismic disturbances. In summary, the **goal of this program is to define classification procedures which do the most effective job of classifying signals that have dynamic, periodically varying properties regardless of their source or nature.**
+>
+> A key element of the instrumentation is a color display oscilloscope. The display shows just what any given classification scheme is doing while it is doing it. Shown are the transformations of the pattern vectors the N-dimensional vector space. The color oscilloscope is ideally suited for exhibiting the customarily unseen intermediate results. Changes in the point of view from which the process being observed can be made while the problem running on the processor. The processing operation can be controlled and changed by keyboard control. Functional alterations in the structure of data filters can also be entered directly analog form by drawing on the face of the oscilloscope with a light pencil. This mode of communication is particularly useful in obtaining a feel for the effect of certain types of perturbation on the performance of the system.
+>
+> This intrinsic attribute extraction technique has been applied the speech bandwidth compression problem (discussed the section below) with highly encouraging results. Speech spectrogram information from the polymodal vocoder operated on by attribute extraction procedures existing in the memory of the DX-1 System. These procedures extract certain types of invariant structures from the continuous flow of audio information and use these structures as a new, compact basis for the transmission and reconstruction of the speech signal. By this procedure, bandwidth compression by a factor of 5 with negligible effect on intelligibility was demonstrated.
+>
+> pp. 19--20.
+
+### C.M. Walter 1964
+
+-   @walter1964
+-   "Disovering the Invariant Characteristics of Things," p. 17.
+
+### C.M. Walter 1966
+
+-   [@technology1966a]
+-   Technology, Federal Council for Science and Technology (U S.) Committee on Scientific and Technical Information Panel on Information Sciences. 1966. *A COSATI Inventory of Information Sciences Technology Activities of Certain United States Government Agencies*.
+-   [URL](https://www.google.com/books/edition/A_COSATI_Inventory_of_Information_Scienc/NJVxCjGJdkUC?hl=en&gbpv=1&dq=%22dynamic+data+processing%22&pg=RA4-PA110&printsec=frontcover)
+
+![](images/paste-3.png){style="border: 1px solid gray;" width="500"}
+
+### Martin 1967
+
+In *Design of Real-time Computer Systems* (1967), Martin describes the nature of dynamic data-processing:
+
+> The aims of a dynamic data-processing system today, then, are likely to involve the tying together of different decisions or actions so that some process can be carried out more efficiently. Functions that before were done on separate computer runs may be linked, for example, doing stock control at the same time as prebilling. Elements of an operation that are separated by distance, such as the allocation of trucks to jobs in a trucking concern, or cars on a railroad may be coupled together. Data may be collected from many different points and correlated in sufficient time to control some process. This may be a business process like the selling of airline seats, or an operational process, such as the scheduling of work through a factory, or a technical process, such as the testing of a jet engine with many instruments [@martin1967: 9].
+
+### OAR 1969
+
+-   OAR [@oar1969]
+-   See "ELECTRONICS" on page 28.
+
+![p. 28](images/image-8.png)
+
+![p. 32](images/image-9.png)
+
+### 2017 Connection to DM!
+
+There is evidence to suggest that DDP is a paradigm that was applied to DM.
+
+-   [@kemp2017] -- Quotes "Big Data and Privacy"
+
+![](images/paste-13.png)
+
+### 2020
+
+Zhang, Chunrong, and Xiwu Shao. "Research on Intelligent Analysis of Port Logistics Information Based on Dynamic Data Mining." *Journal of Coastal Research*, 2020, 93--95. https://www.jstor.org/stable/48640398.
+
+> \...on port logistics. logistics system. **Dynamic** **data** **processing** is to realize the dynamic processing of There are many factors that affect the logistics index of an data in the process of dynamic data collection and transmission, enterprise, and digging into these factors is the advantage. The such as data type\...
+
+## **The DX-1**
+
+-   The Experimental Dynamic Processor DX-1
+-   Implements DDP
+-   Based on SAGE
+-   Developed in late 1950s and adopted by DSL
+-   Gilmore, Adams, and Walter are key players
+
+### 1959 John T. Gilmore and Adams Associates
+
+![Decuscope, v4 n4, April 1965, p. 5](/chapters/images/image.png){style="border: 1px solid gray;" width="400"}
+
+Role of John T. Gilmore and Adams Associates -- see <https://www.evernote.com/shard/s5/sh/47c1de7d-5e85-e929-d5ce-36bdc13b82e6/KeBl96ajHaYil7G68AGhGc_aao4ry07T616PfnOsxm8gcHGI-IAeXuReKA>
+
+![](images/image.png){style="border: 1px solid gray;" width="200"}
+
+-   Join Lincoln Lab in 1956
+-   TX-0 computer
+-   Co-founded and vice president of W. Adams Associates, Inc.
+-   dynamic data processing
+
+### AFCRL 1962
+
+AFCRL. 1962. *History and Progress of AFCRL, Jan. 1961-June 1962*. AFCRL 62-714. Bedford, Massachusetts: Air Force Cambridge Research Laboratories, Office of Aerospace Research, United States Air Force. <https://catalog.hathitrust.org/Record/102893702>.
+
+![](images/paste-20.png){width="400"}
+
+[@history1962: 143]
+
+![p. 203](images/paste-14.png){width="400"}
+
+### C.M. Walter 1962
+
+-   C. M. Walter, "The experimental dynamic processor DX-1,'' in *IRE Int. Conv. Rec.*, vol. 10, pt. 9, pp. 151-156, 1962.
+    -   @walter1962
+    -   Text unavailable
+-   [@walter1963]
+
+![](images/paste-22.png){width="400"}
+
+### Gilmore and Adams 1963
+
+-   [@gilmorejr.1963]
+
+-   Gilmore, Jr., John T. 1963. "The Digigraphic Display Program for the DX-1 Computer System." Adams Associates. <http://archive.org/details/bitsavers_decdecuspd_1934830>.
+
+![](images/paste-23.png){width="600"}
+
+![](images/paste-24.png)
+
+### AFCRL 1963
+
+-   [@afcrl1963]
+-   Discusses concept and DX-1, the Experimental Dynamic Processor.
+-   Generalizes SAGE; applies to other domains.
+-   See also [@airforc1963]Air Force Research Resumés for a list of projects.
+
+### Charles W. Adams 1963
+
+-   [@airforc1963] Air Force Research Resumés
+
+![](images/image-2.png)
+
+![](images/image-3.png)
+
+![](images/image-4.png)
+
+### C.M. Walter 1964
+
+-   [@walter1964]
+-   C.M. Walter on Invariant Characteristics.
+
+### *Decuscope* 1965
+
+-   Mentioned in *Decuscope*, v4 n4, April 1965
+-   Context: AGENDA DECUS SPRING SYMPOSIUM / William James Hall, Harvard University / May 20- 21, 1965
+-   p\. 5
+-   [URL](http://bitsavers.trailing-edge.com/pdf/dec/decus/decuscope/Decuscope_Vol04_1965.pdf){.uri}
+
+![Decuscope, v4 n4, April 1965, p. 5](/chapters/images/image.png){style="border: 1px solid gray;" width="400"}
+
+### C.M. Walter 1966
+
+-   [@technology1966]
+-   April 1966. Walter C.M. again.
+-   Describes research goals.
+
+![](/chapters/images/paste-2.png){width="400"}
+
+### NASA 1968
+
+-   [@administration1968]
+-   [URL](https://books.google.com/books?id=a10jAAAAMAAJ&q=DX-1+afcrl&dq=DX-1+afcrl&hl=en&newbks=1&newbks_redir=0&source=gb_mobile_search&ovdme=1&sa=X&ved=2ahUKEwiEkN-WmaqBAxU1FlkFHfBHDgY4ChDoAXoECAYQAw#DX-1%20afcrl)
+
+![](images/paste-6.png){width="1429"}
+
+### OAR 1969
+
+-   OAR [@oar1969]
+-   See *Air Force Research Objectives 1969*, under "Engineering Sciences / Electronics / Information Processing," page 32.
+-   See also intro on page 28.
+
+### NBS 1970
+
+-   [@nbsmono1970]
+
+![](images/paste-8.png)
+
+![p. 67](images/paste-9.png)
+
+![p. 122](images/paste-7.png)
+
+![](images/paste-10.png)
+
+![](images/paste-11.png)
+
+![](images/paste-12.png)
+
+-   [@parker1965]
+
+### Chase 1970
+
+-   [@chase1970]
+-   An Experimental Display Processor for the DX-1.
+
+> An experimental two-console, core-buffered CRT display unit has been developed for the Dynamic Processes Branch, Data Sciences Laboratory, to advance display console design and improve digital hardware line- and curve generating techniques. Static or dynamic graphical information can be displayed by either a black and white or full-color display processor under the control of a list processor designed for interfacing to a time-shared main computer.
+>
+> ...
+>
+> Early in 1966 it was decided to develop a core buffered, digital, line-drawing, CRT display with vector-generating speeds comparable to those of commercially available units but with maximum programming flexibility for presentation of dynamically changing data. Conferences were held between Charlton M. Walter, chief of the Dynamic Processes Branch, Data Sciences Laboratory; Major Frank S. Balzer of the Dynamic Processes Branch; J. Richard Wright of Wolf Research and Development Corp; John T.Gilmore Jr.; Frank S. Greatorex Jr.; Edward N.Chase of Charles W.Adams Associates Inc.; and Earl W.Pughe of E.W. Pughe Development Inc.(nowIMLAC Corp. ) to outline the specifications for such adisplay. The detailed specifications, design ,development ,and construction of the display were executed by Earl Pughe. The hardware was delivered in the summer of 1968. Further design and modifications were undertaken by Capt .Charles H.Radoy and others of the Dynamic Processes Branch to produce a digital display device that, in several ways,has advanced technical knowledge in this field.
+
+### Kanal 1972
+
+-   [@kanal1972]
+-   Kanal, L.N. 1972. "Interactive Pattern Analysis and Classification Systems: A Survey and Commentary." *Proceedings of the IEEE* 60 (10): 1200--1215. <https://doi.org/10.1109/PROC.1972.8880>.
+-   "Interactive pattern analysis"
+-   "interactive statistical signal analysis"
+-   "on-line interactive sensor data processing"
+-   [URL](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1450810){.uri}
 
 > The Experimental Dynamic Processor, DX-1 \[192\], \[I951 was started around the late 1950's to study on-line interactive sensor data processing. This was one of the pioneering efforts in the study of **interactive statistical signal analysis** using a graphics display and the use of color displays in this context \[194\], \[196\]. In addition to radar and biological signal processing and on-line filter design \[193\], \[149\], the major use of this system has been in studies of various statistical bandwidth compression schemes.
 
-## Connections
-
--   DDP
-
-    -   Interactive statistical signal analysis
-    -   See definitions in various AFCRL articles
-        -   @afcrl1963 See "Dynamic Measurement Processes," p. 195.
-        -   @walter1964 "Disovering the Invariant Characteristics of Things," p. 17.
-    -   See research related to DD
-        -   <https://www.evernote.com/shard/s5/sh/21db1975-81a0-4f29-f10f-38baacb79846/nhfjPThvvb01EplwLt7QIdae2zGelv2gp_ett4BZM_sBgpocNMaLI9JaMg>
-    -   Referred to in a [Congressional hearing](https://www.google.com/books/edition/HOUSE_REPORTS/mig8AQAAMAAJ?hl=en&gbpv=1&dq=%22dynamic+data+processing%22&pg=RA1-PA123&printsec=frontcover). Context: merging of communications and data processing technologies --- same merger behind the DSL.
-
--   DX-1
-
-    -   @walter1962 The Experimental Dynamic Processor DX-1
-    -   Implements DDP
-    -   Based on SAGE
-    -   Role John T. Gilmore and Adams Associates -- see <https://www.evernote.com/shard/s5/sh/47c1de7d-5e85-e929-d5ce-36bdc13b82e6/KeBl96ajHaYil7G68AGhGc_aao4ry07T616PfnOsxm8gcHGI-IAeXuReKA>
-
-## Extracts
-
-<https://www.evernote.com/shard/s5/sh/21db1975-81a0-4f29-f10f-38baacb79846/nhfjPThvvb01EplwLt7QIdae2zGelv2gp_ett4BZM_sBgpocNMaLI9JaMg>
-
-## Sources
+![](images/paste-1.png){width="400"}
 
 Chien, Y.T. 1976. "Interactive Pattern Recognition: Techniques and Systems." *Computer* 9 (5): 11--25. <https://doi.org/10.1109/C-M.1976.218582>.
 
-Kanal, L.N. 1972. "Interactive Pattern Analysis and Classification Systems: A Survey and Commentary." *Proceedings of the IEEE* 60 (10): 1200--1215. <https://doi.org/10.1109/PROC.1972.8880>.
+-   Desribes **interactive statistical signal analysis -- using the Iris data set**
+
+-   HCI
+
+-   Feature selection and reduction
+
+    ![](images/Screen_Capture_-_Oct_13__7_27_AM.png){style="border: 1px solid gray;"}
+
+### Olson 1993
+
+-   [@olson1993]
+-   Olson, R. Craig. 1993. "Signal Transient Analyses and Classification Techniques." In *Handbook of Pattern Recognition and Computer Vision*, 541--68. WORLD SCIENTIFIC. <https://doi.org/10.1142/9789814343138_0019>.
+
+![](images/paste-2.png)
+
+## Notes from Evernote
+
+The data sciences laboratory of the AFCRL was formed from two previous groups one devoted to computation and when to put it to communication
+
+The previous two groups were instrumental in developing the technology for the sage project
+
+The sage project was a real-time command and control system that drove the innovation of the computer
+
+The features of the real time in command and control system are as follows
+
+The DSL carried the mission and generalized it
+
+The concept of dynamic data processing and the DX1 computer were applied to other domains
+
+This concept of data science was adopted by other organizations within the government and military such as the veterans administration
+
+The salient features of this definition of data science are a concern with data deluge and dynamic data processing to support decision making using artificial intelligence and visualization.
+
+The concept of data deluge provides a window into the context of operations
+
+In the succeeding decades this model is generalized in the context of wide area sciences

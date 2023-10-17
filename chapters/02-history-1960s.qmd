@@ -14,22 +14,26 @@ cases, the phrase functioned as an organizational rubric for a new kind
 of labor associated with the rise of large-scale data generating and
 processing technologies that were the hallmark of the postwar era.
 
+References to Data Sciences Corporation
+
+Reference to Data Sciences Corp, [@datasys1963]
+
 ## The Data Sciences Lab
 
 The military use first appeared in a series of reports covering the
 period from July 1962 to June 1970 on research carried out by the Data
 Sciences Laboratory (DSL). The DSL was founded in 1963 as one of several
 labs associated with the US Air Force Cambridge Research Laboratories
-(AFCRL).[^1] These reports do not provide an explicit definition of data
-science or a rationale for choosing the expression over others, but its
-meaning is clear from context.
+(AFCRL).[^02-history-1960s-1] These reports do not provide an explicit
+definition of data science or a rationale for choosing the expression
+over others, but its meaning is clear from context.
 
-[^1]: The DSL was formed by combining the Computer and Mathematical
-    Sciences Laboratory and the Communications Sciences Laboratory in
-    the 1963 reorganization of the AFCRL [@venkateswaran1963: 628].
-    Within the AFCRL, the lab was noted for its "research on speech
-    patterns \[which\] dated back to the 1940's \[sic\]"
-    [@altshuler2013: 27-28].
+[^02-history-1960s-1]: The DSL was formed by combining the Computer and
+    Mathematical Sciences Laboratory and the Communications Sciences
+    Laboratory in the 1963 reorganization of the AFCRL
+    [@venkateswaran1963: 628]. Within the AFCRL, the lab was noted for
+    its "research on speech patterns \[which\] dated back to the 1940's
+    \[sic\]" [@altshuler2013: 27-28].
 
 **Implicit definition of data science**
 
@@ -104,14 +108,51 @@ significant research on pattern recognition and classification, machine
 learning, neural networks, and spoken language processing in the service
 of processing the novel forms of data described above.
 
+### Focus of DSL
+
+[@reporter1963] Telepathy study reported in the Guardian!
+
+### NEW: From HCI to DDP
+
+Why the emphasis on visualization and human in the loop architectures?
+
+Dynamic data processing.
+
+And, why the emphasis on dynamic data processing?
+
+A speech made by Licklider at a conference hosted by the Data Sciences
+Lab on speech and visual data holds a clue. He said: "\... computer
+programming is the only known way of producing testable representations
+of very complex situations or processes" (Wathen-Dunn 1967 \[1964\]:
+23).
+
+This is in the context of a paper on dynamic modeling.
+
+It is hard to overestimate the significance of this claim. To understand
+it, it is helpful to go back to the work of von Neumann and the
+Princeton computer that was used to simulate the atomic reaction of the 
+first hydrogen bomb. \[Find reference to von Neumann's argument that
+statistics cannot be used in this context. And so is necessary to
+develop Monte Carlo methods.\]
+
+There is a genealogical connection between von oyman's work and that of
+the data scientist lab. In any case, it is helpful to see here the role
+of the computer in this early iteration of data science. It is not
+simply a tool to make calculations more convenient, nor is it simply an
+environment that could in principle be replaced by pencil and paper. It
+is the very condition of possibility of extracting meaning from certain
+kinds of data. This is a very important idea and we'll come back to it.
+
+Go on to show the connection between dynamic modeling and exploratory
+data analysis on the one hand, that is, interactive pattern recognition,
+and data mining on the other.
+
 ```{=html}
 <!--#  Insert here description of example projects. Pattern recognition of
 planes and letters, extracting linguistic features from voice, the idea
 of "dynamic data processing," and the DX-1. -->
 ```
-**Context**
-
-<!--# Mention that the DSL was formed from two units that played a key role in the following -->
+### Context
 
 More important than locating a precise time and place for the origin of
 the field---a task doomed to fail, given the complexity and
@@ -126,18 +167,46 @@ associated with the early Cold War.
 The AFCRL was originally established in 1945 as the Cambridge Field
 Station, a unit created to hold onto the Harvard and MIT scientists and
 engineers who performed significant research on radar and electronics in
-WWII. During the 1950s, the lab focused on Project Lincoln, which led to
-the creation of the Semi-Automatic Ground Environment (SAGE), a
-real-time command-and-control system developed to counter to perceived
-threat of an airborne nuclear attack by the Soviet Union. As a
-continental air defense system, SAGE was designed to collect, analyze,
-and relay data from a vast array of geographically distributed radars in
-real-time, in order to initiate an effective response to an aerial
-attack. At the heart of the system was a network of large digital
-computers that coordinated the data retrieved from the radar sites over
-phone lines and processed them to produce a single unified
-image---literally displayed on a monitor---of the airspace over a wide
-area.
+WWII. The lab became "highly specialized in radar, digital
+communications for radar, geophysics, and weather analysis systems" and
+"quickly established itself as a premier research facility, especially
+to William Golden, President Truman's special consultant on how the
+country should most effectively mobilize its scientific resources"
+[@greenBrightBoysMaking2010: 101].
+
+During the 1950s, the lab focused on Project Lincoln, which led to the
+creation of the Semi-Automatic Ground Environment (SAGE), a real-time
+command-and-control system developed to counter to perceived threat of
+an airborne nuclear attack by the Soviet Union. As a continental air
+defense system, SAGE was designed to collect, analyze, and relay data
+from a vast array of geographically distributed radars in real-time, in
+order to initiate an effective response to an aerial attack. At the
+heart of the system was a network of large digital computers that
+coordinated the data retrieved from the radar sites over phone lines and
+processed them to produce a single unified image---literally displayed
+on a monitor---of the airspace over a wide area.
+
+------------------------------------------------------------------------
+
+Two units involved in SAGE become the DSL
+
+![](images/paste-3.png){width="400"}
+
+[@venkateswaran1963: 624]
+
+The DSL was formed by combining the Computer and Mathematical Sciences
+Laboratory and the Communications Sciences Laboratory in the 1963
+reorganization of the AFCRL [@venkateswaran1963: 628]. Within the AFCRL,
+the lab was noted for its "research on speech patterns \[which\] dated
+back to the 1940's \[sic\]" [@altshuler2013: 27-28].
+
+------------------------------------------------------------------------
+
+The DSL generalizes the research
+
+DX-1
+
+Dynamic Data Processing
 
 Although responsibility for research on such military surveillance
 systems was moved out of the lab in 1961, just before the Data Sciences
@@ -154,9 +223,7 @@ domains. (If we replace radars with smart phones and the Internet of
 Things, it is not difficult to draw a parallel between this arrangement
 and that of social media corporations today.)
 
-<!--# Discuss here the DX-1 and dynamic data processing as the generalization of the pattern developed for SAGE -->
-
-**Language**
+### Language
 
 Evidence for the influence of radar and satellite-based real-time
 command and control systems on the conceptualization of data science may
@@ -167,7 +234,7 @@ Characteristic (ROC) curves---first used by military radar operators in
 1941---to measure the performance of binary classifiers. Other idioms,
 such as "data deluge," also emerge in this context.
 
-**Data deluge**
+### Data deluge
 
 A history of the expression data deluge is worth its own study, but it
 is clear that its provenance was the situation described above. The term
@@ -188,13 +255,13 @@ NASA and the military. Consider this passage from the NASA publication
 > confined to technical reports alone, but also to the data from which
 > they are written. In fact, the quantity of raw data generally exceeds
 > the length of the resulting paper by many orders of magnitude
-> [@corliss1967: 157].[^2]
+> [@corliss1967: 157].[^02-history-1960s-2]
 
-[^2]: Preceding the usage of data deluge and in a wider context is
-    "information explosion." Both expressions conjure images of disaster
-    and have been remarkably persistent up to the present era. Only with
-    the coining of "big data" have they been displaced by a more
-    positive term.
+[^02-history-1960s-2]: Preceding the usage of data deluge and in a wider
+    context is "information explosion." Both expressions conjure images
+    of disaster and have been remarkably persistent up to the present
+    era. Only with the coining of "big data" have they been displaced by
+    a more positive term.
 
 Work on such projects generated an enormous amount of research on the
 problems arising from the processing and interpreting data. In the
@@ -205,9 +272,7 @@ data wrangling. It is reasonable to infer that the concept of data
 science emerged to designate this kind of work, which, in any case, is
 consistent with the published mission of the Data Sciences Lab.
 
-<!--#  It may be appropriate to include here a discussion of the DX-1 (instead of above). The DX-1 generalizes the logic of the SAGE system, which in turn computerizes (informates?) the OR paradigm developed during the Battle of Britain. -->
-
-**Data processing scientist**
+### **Data processing scientist**
 
 Prior to the formation of the DSL, the phrase "data-processing
 scientist" was in use to designate the work involved in data reduction
@@ -218,9 +283,11 @@ program. Data reduction was essential to projects like SAGE, in which
 vast amounts of real-time signal data had to be reduced prior to
 analysis. In a House appropriations hearing in 1958, the following
 description of this kind of work was provided by Dr. James H.
-Doolittle,[^3] the last chairman of NACA before it became NASA:
+Doolittle,[^02-history-1960s-3] the last chairman of NACA before it
+became NASA:
 
-[^3]: This is the very same General Doolittle of Doolittle's Raid.
+[^02-history-1960s-3]: This is the very same General Doolittle of
+    Doolittle's Raid.
 
 > The data processing function is much more complex than the mere
 > production line job of translating raw data into usable form. Each new
@@ -274,10 +341,10 @@ founded in 1964 by a three former UNIVAC engineers [@mohawkd1966]. Both
 companies provided data processing services and lasted well into the era
 of personal computing. In the late 1960s and 1970s, many other companies
 used term as well, such as Data Science Ventures [@mortcollinsventures]
-and Carroll Data Science Corporation [@office1979].[^4]
+and Carroll Data Science Corporation [@office1979].[^02-history-1960s-4]
 
-[^4]: This continues into the 1980s, with Gateway Data Sciences Corp and
-    Vertex Data Science, Ltd.
+[^02-history-1960s-4]: This continues into the 1980s, with Gateway Data
+    Sciences Corp and Vertex Data Science, Ltd.
 
 ## Meaning of "Data"
 
@@ -296,16 +363,16 @@ from the Latin word for that which is *given* in the epistemological
 sense, either through the senses, reason, or authority---in this context
 it refers to the structured and discrete representation of information
 sources so that these may be processed by computers. In other words,
-*data is machine readable information*.[^5] It follows that the data
-sciences in this period are concerned with understanding machine
-readable information, in terms of how to represent it and how to process
-it in order to extract value.
+*data is machine readable information*.[^02-history-1960s-5] It follows
+that the data sciences in this period are concerned with understanding
+machine readable information, in terms of how to represent it and how to
+process it in order to extract value.
 
-[^5]: Preceding the usage of data deluge and in a wider context is
-    "information explosion." Both expressions conjure images of disaster
-    and have been remarkably persistent up to the present era. Only with
-    the coining of "big data" have they been displaced by a more
-    positive term.
+[^02-history-1960s-5]: Preceding the usage of data deluge and in a wider
+    context is "information explosion." Both expressions conjure images
+    of disaster and have been remarkably persistent up to the present
+    era. Only with the coining of "big data" have they been displaced by
+    a more positive term.
 
 ## Classical Data Science
 

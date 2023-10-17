@@ -1,6 +1,5 @@
 # The 1970s
 
-
 It is clear that by the early 1970s the term data science had been in
 circulation in several contexts and referred to ideas and tools relating
 to computational data processing. Importantly, these usages were not
@@ -100,6 +99,8 @@ writing from 1951 to 1990, which includes his essay on data science, is
 entitled "Computing: A Human Activity" [@naur1992].
 
 ## Other Uses
+
+The term appears in the  Proceedings of the IFIP World Conference
 
 -   [@computer1975] Computers in Education, Proceedings of the IFIP
     World Conference

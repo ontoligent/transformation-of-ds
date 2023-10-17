@@ -46,41 +46,30 @@ Yet throughout out this period, classical data science persists and paradoxicall
 
 Notably, during this period the term "data scientist" emerged as well, in both statistical and classical contexts. Its appearance reflected a concern for data science as an new profession, complete with educational requirements. In the statistician's usage, this position was ambivalently placed within the general division of labor, as either a synthetic "new man" figure that would encompass data analysis, or else as a "data specialist," an adjunct to the more primary work of the data analyst. In any case, the appearance of this grammatical variant indicates a transformation in the social context of usage: data science had moved from being an abstract concern to a widely distributed and embedded activity.
 
+### 2000 World  Conference on Data Science and Technology
+
+"The World Conference on Data Science and Technology will be held in Taipei from June 11 to 14, with more than 1,000 participants coming from 46 countries."
+
+<https://wnc.eastview.com/wnc/article?id=36862717>
+
 ### 2002 *Data Science Journal*
 
-Discuss CODATA and continuity. 
+Discuss CODATA and continuity.
 
 ### 2003 *Journal of Data Science*
 
 -   Established in 2003, a year after CODATA's *Data Science Journal*.
--   An official journal of the Center for Applied Statistics, School of
-    Statistics, Renmin University of China.
+-   An official journal of the Center for Applied Statistics, School of Statistics, Renmin University of China.
 -   https://jds-online.org/journal/JDS/information/about-journal
--   Appears to represent Statistical Data Science by virtue of content,
-    but stated scope of the journal is much broader.
--   The concept is used without reference to any of prior usages at the
-    time of its inception.
+-   Appears to represent Statistical Data Science by virtue of content, but stated scope of the journal is much broader.
+-   The concept is used without reference to any of prior usages at the time of its inception.
 -   An unattributed paragraph from the website says the following:
 
-> Established in 2003, the Journal of Data Science aims to advance and
-> promote data science methods, computing, and applications in all
-> scientific fields where knowledge and insights are to be extracted
-> from data. The journal publishes research works on the full spectrum
-> of data science including statistics, computer science, and domain
-> applications. The topics can be about *any aspect of the life cycle
-> (collecting, processing, analyzing, communicating, etc.) of data
-> science projects* from any field that involves understanding and making
-> effective use of data. The emphasis is on applications, case studies,
-> statistical methods, computational tools, and reviews of data science
-> [@aimsand; emphasis added].
+> Established in 2003, the Journal of Data Science aims to advance and promote data science methods, computing, and applications in all scientific fields where knowledge and insights are to be extracted from data. The journal publishes research works on the full spectrum of data science including statistics, computer science, and domain applications. The topics can be about *any aspect of the life cycle (collecting, processing, analyzing, communicating, etc.) of data science projects* from any field that involves understanding and making effective use of data. The emphasis is on applications, case studies, statistical methods, computational tools, and reviews of data science [@aimsand; emphasis added].
 
--   A tell is the reference to computational *tools*, but not *methods*
-    ...
+-   A tell is the reference to computational *tools*, but not *methods* ...
 -   Compare the the *Data Science Journal*.
--   See Mayernik's quote: "Looking at the *Journal of Data Science* and
-    the *Data Science Journal* in parallel, we clearly see two distinct
-    notions of what data science encompasses, both generally exclusive
-    of the other" [@mayernik2023: 5].
+-   See Mayernik's quote: "Looking at the *Journal of Data Science* and the *Data Science Journal* in parallel, we clearly see two distinct notions of what data science encompasses, both generally exclusive of the other" [@mayernik2023: 5].
 
 ### 2005 NSF
 
@@ -175,4 +164,3 @@ This definition was consistent with the classical definition and indeed echoed t
 > The appearance of data mining technology ... means that people began to study the laws aiming at data in computer systems. In the field of Internet, more and more researches focus on network behavior, network community, network search, and network culture. Because of the accumulation of data, newly disciplines, such as bioinformatics and brain informatics, are also typical dataology centric research areas. For instance, DNA data in bioinformatics are the data that describe natural structures of life, based on which we can study life using computers (153).
 
 In other words, not only is data mining consistent with data science in this view, it is central to it. More recently, the authors situate this definition within the array of definitions that currently characterize the ambiguous nature of the field and which motivate the current essay [@zhu2015]. Consistent with their focus on data as it exists in databases, the authors focus on the role of the Internet and social media in constituting the field of data science. This is a perspective we will revisit.
-
