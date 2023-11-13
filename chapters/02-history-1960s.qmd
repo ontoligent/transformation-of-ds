@@ -6,27 +6,16 @@ editor:
 
 # The 1960s
 
-The first uses of the phrase "data science," as a recognizable
-collocation, appeared in the early 1960s in both singular and plural
-forms. Two main uses are found in the written record almost
-simultaneously, one in a military context, the other industrial. In both
-cases, the phrase functioned as an organizational rubric for a new kind
-of labor associated with the rise of large-scale data generating and
-processing technologies that were the hallmark of the postwar era.
+## 1963: The Data Sciences Lab
 
-References to Data Sciences Corporation
+The first attested uses of "data science" and "data sciences" as
+recognizable collocations are found in the military-industrial sector of
+the early 1960s. The most significant of these is the Data Sciences Lab
+(DSL) of the Air Force Cambridge Research Laboratories (AFCRL).
 
-Reference to Data Sciences Corp, [@datasys1963]
+Formed in 1963 out of ...
 
-## The Data Sciences Lab
-
-The military use first appeared in a series of reports covering the
-period from July 1962 to June 1970 on research carried out by the Data
-Sciences Laboratory (DSL). The DSL was founded in 1963 as one of several
-labs associated with the US Air Force Cambridge Research Laboratories
-(AFCRL).[^02-history-1960s-1] These reports do not provide an explicit
-definition of data science or a rationale for choosing the expression
-over others, but its meaning is clear from context.
+The DSL was formed in 1963.[^02-history-1960s-1]
 
 [^02-history-1960s-1]: The DSL was formed by combining the Computer and
     Mathematical Sciences Laboratory and the Communications Sciences
@@ -35,7 +24,13 @@ over others, but its meaning is clear from context.
     its "research on speech patterns \[which\] dated back to the 1940's
     \[sic\]" [@altshuler2013: 27-28].
 
-**Implicit definition of data science**
+In a series of reports covering the period from July 1962 to June 1970
+on research carried out by the Data Sciences Laboratory (DSL). The DSL
+was founded in 1963 as one of several labs associated with the US Air
+Force Cambridge Research Laboratories (AFCRL).These reports do not
+provide an explicit definition of data science or a rationale for
+choosing the expression over others, but its meaning is clear from
+context.
 
 Consider the stated motivation for the lab---which, as one of the first
 attested uses of the phrase, is worth quoting at length:
@@ -234,7 +229,7 @@ Characteristic (ROC) curves---first used by military radar operators in
 1941---to measure the performance of binary classifiers. Other idioms,
 such as "data deluge," also emerge in this context.
 
-### Data deluge
+#### Data deluge and NASA
 
 A history of the expression data deluge is worth its own study, but it
 is clear that its provenance was the situation described above. The term
@@ -325,6 +320,8 @@ and computational scarcity relative to the need to extract value from
 the data, has been constant since this time, and defines the condition
 that gives rise to data science in this sense.
 
+### Data Science Task Group
+
 This interpretation of the meaning of data science is corroborated by
 other contemporary usages. A report on a US Department of Defense
 program to define standards "to interchange data among independent data
@@ -333,17 +330,30 @@ formulate views of data and definitions of data terms that would meet
 the needs of the program" [@crawfordjr.1974: 51]. Crawford, a fellow
 student of Claude Shannon at MIT under Vannevar Bush, was affiliated
 with IBM's Advanced Systems Development Division, a group that had
-developed optical scanners to recognize handwritten numbers in 1964. In
-addition, the term appeared in the trademarked name of at least two
+developed optical scanners to recognize handwritten numbers in 1964.
+
+### Corporations
+
+In addition, the term appeared in the trademarked name of at least two
 corporations in the United States: Data Science Corporation, formed in
 1962 by a former IBM employee [@roberta], and Mohawk Data Sciences,
-founded in 1964 by a three former UNIVAC engineers [@mohawkd1966]. Both
-companies provided data processing services and lasted well into the era
-of personal computing. In the late 1960s and 1970s, many other companies
-used term as well, such as Data Science Ventures [@mortcollinsventures]
-and Carroll Data Science Corporation [@office1979].[^02-history-1960s-4]
+founded in 1964 by a three former UNIVAC engineers
+[@mohawkd1966].[^02-history-1960s-4] Both companies provided data
+processing services and lasted well into the era of personal computing.
+In the late 1960s and 1970s, many other companies used term as well,
+such as Data Science Ventures [@mortcollinsventures] and Carroll Data
+Science Corporation [@office1979].[^02-history-1960s-5]
 
-[^02-history-1960s-4]: This continues into the 1980s, with Gateway Data
+[^02-history-1960s-4]: There is a reference to a Data Sciences
+    Corporation of San Diego, Califorrnia in a listing found in the
+    journal *Data Systems Engineering* in 1963 [@datasys1963]. The same
+    organization appeared in a series of Military Prime Contract Files
+    dating from 1967 to 1974 [@nara-a1967; @nara-a1974]. Not much can be
+    discerned about the company from the documentary evidence other than
+    that the company contracted to the Army to provide various forms of
+    electronic communication equipment.
+
+[^02-history-1960s-5]: This continues into the 1980s, with Gateway Data
     Sciences Corp and Vertex Data Science, Ltd.
 
 ## Meaning of "Data"
@@ -363,18 +373,20 @@ from the Latin word for that which is *given* in the epistemological
 sense, either through the senses, reason, or authority---in this context
 it refers to the structured and discrete representation of information
 sources so that these may be processed by computers. In other words,
-*data is machine readable information*.[^02-history-1960s-5] It follows
+*data is machine readable information*.[^02-history-1960s-6] It follows
 that the data sciences in this period are concerned with understanding
 machine readable information, in terms of how to represent it and how to
 process it in order to extract value.
 
-[^02-history-1960s-5]: Preceding the usage of data deluge and in a wider
+[^02-history-1960s-6]: Preceding the usage of data deluge and in a wider
     context is "information explosion." Both expressions conjure images
     of disaster and have been remarkably persistent up to the present
     era. Only with the coining of "big data" have they been displaced by
     a more positive term.
 
 ## Classical Data Science
+
+### CODATA
 
 Further evidence of this concern for what might be called the
 information crisis in scientific research---and for the idea that the

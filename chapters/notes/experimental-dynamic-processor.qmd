@@ -12,15 +12,15 @@
 
 ### AFCRL 1961--1962
 
-![](images/paste-16.png){width="400"}
-
-![](images/paste-15.png){width="400"}
+|                                       |                                       |
+|-------------------------------|------------------------------------|
+| ![](images/paste-16.png){width="400"} | ![](images/paste-15.png){width="400"} |
 
 ### AFCRL 1962--1963
 
--   @afcrl1963
+@afcrl1963
 
-> **Dynamic measurement processes:** Dynamic measurement processing is concerned with the real-time analysis of sensor data---visual patterns, electromagnetic signals, acoustical phenomena and so on---for the purpose of identify ing and extracting from these data certain characteristic attributes. The data from various sensors such as radio telescopes, spectrometers, ion gauges aboard satellites, are often noisy, redundant and difficult to interpret. Interpretation itself is sometimes highly subjective. The information may have different meaning to different observers, depending on their particular point of view and their particular interest. Research on dynamic measurement processes at AFCRL is mainly focused on the question, \"What is there that is common to all sensor measurement processes?\"
+> **Dynamic measurement processes:** Dynamic measurement processing is concerned with the real-time analysis of sensor data---visual patterns, electromagnetic signals, acoustical phenomena and so on---for the purpose of identify ing and extracting from these data certain characteristic attributes. The data from various sensors such as radio telescopes, spectrometers, ion gauges aboard satellites, are often noisy, redundant and difficult to interpret. Interpretation itself is sometimes highly subjective. The information may have different meaning to different observers, depending on their particular point of view and their particular interest. Research on dynamic measurement processes at AFCRL is mainly focused on the question, "What is there that is common to all sensor measurement processes?"
 >
 > The question has particular relevancy to sensor data from space probes. There is strong competition for limited telemeter channel capacity among various experimental packages. But a more basic consideration is the cost of data analysis in which individual techniques and machines are usually developed for each type of measurement. AFCRL hopes to uncover common features of diverse measurement techniques.
 >
@@ -44,8 +44,7 @@
 >
 > pp. 202--206.
 
-### 
-AFCRL 1963--1965
+### AFCRL 1963--1965
 
 -   [@afcrlReportResearchAFCRL1965]
 -   See also section "Model of Visual Perception" (192).
@@ -108,9 +107,9 @@ In *Design of Real-time Computer Systems* (1967), Martin describes the nature of
 -   OAR [@oar1969]
 -   See "ELECTRONICS" on page 28.
 
-![p. 28](images/image-8.png)
+![p. 28](images/image-8.png){width="600"}
 
-![p. 32](images/image-9.png)
+![p. 32](images/image-9.png){width="400"}
 
 ### 2017 Connection to DM!
 
@@ -118,7 +117,7 @@ There is evidence to suggest that DDP is a paradigm that was applied to DM.
 
 -   [@kemp2017] -- Quotes "Big Data and Privacy"
 
-![](images/paste-13.png)
+![](images/paste-13.png){width="400"}
 
 ### 2020
 
@@ -160,9 +159,18 @@ AFCRL. 1962. *History and Progress of AFCRL, Jan. 1961-June 1962*. AFCRL 62-714.
 ### C.M. Walter 1962
 
 -   C. M. Walter, "The experimental dynamic processor DX-1,'' in *IRE Int. Conv. Rec.*, vol. 10, pt. 9, pp. 151-156, 1962.
+
     -   @walter1962
-    -   Text unavailable
--   [@walter1963]
+    -   Text unavailable. Abstract available here @1962ire1962
+    -   ![](images/paste-26.png){width="623"}
+
+    ![](images/image-10.png){width="400"}
+
+    ![](images/paste-25.png){width="400"}
+
+### C.M. Walter 1963
+
+-   [@walter1963] DECUS
 
 ![](images/paste-22.png){width="400"}
 
@@ -214,6 +222,10 @@ AFCRL. 1962. *History and Progress of AFCRL, Jan. 1961-June 1962*. AFCRL 62-714.
 -   Describes research goals.
 
 ![](/chapters/images/paste-2.png){width="400"}
+
+### C.M. Walter 1966, etc.
+
+![](images/paste-27.png)
 
 ### NASA 1968
 

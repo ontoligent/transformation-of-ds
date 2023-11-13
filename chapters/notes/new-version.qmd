@@ -1,0 +1,15 @@
+# The Birth of Data Science
+
+Topics
+
+- The DSL of the AFCRL
+- Origins in SAGE: aggregation, reduction, visualization, RTCC
+- Example work: kinds of data and problems
+- The focus on Dynamic Data Processing and the DX-1
+- Data impedance 
+- The connection to surveillance capitalism
+
+
+## The DSL
+
+Data Science was invented in 1963 by the US Air Force.

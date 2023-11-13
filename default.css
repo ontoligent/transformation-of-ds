@@ -36,6 +36,6 @@
     font-size: 90%;
 }
 
-.comment {
+.comment, .hidden {
     display: None;
 }
