@@ -1429,7 +1429,7 @@ dating back to 1966 and at least up to 1995 [@lovell1983; @ando1966;
 @hendry1995: 544]. In his review of the concept in 1983, Lovell's
 remarks make it clear that the two usages are not entirely unrelated:
 
-> The development of data banks \... has increased tremendously the
+> The development of data banks ... has increased tremendously the
 > efficiency with which the investigator marshals evidence. The art of
 > fishing over alternative models has been partially automated with
 > stepwise regression programs. While such advances have made it easier
@@ -1692,19 +1692,20 @@ historical perspective makes this clear:
 
 This view, close to that espoused here, locates data science in the
 historically specific emergence of networked, computational
-databases---what has been called the datasphere [@garfinkel2000;
-@alvarado2017]. This emphasis on the dependence of models on this
-infrastructure represents what seems to be a distinct view to that of
-the statistician, who tends to regard these developments as exogenous to
-her engagement with data. Put another way, for the statistician, the
-historical shift from data to databases---from print to digital modes of
-communication---is often represented as a difference in degree, but for
-the scientist, who produces and lives among these data, it is a
-difference in kind. This difference in perspective was not without
-epistemic consequences. For one, Smith's definition clearly included
-data mining. For another, just as data mining had been excluded from the
-statistician's definition of data science, so too was a concern for
-databases excluded from what was considered worthwhile scientific work:
+databases---what has been called the datasphere [@rushkoff1994;
+@garfinkel2000; @alvarado2017; @bergé2018]. This emphasis on the
+dependence of models on this infrastructure represents what seems to be
+a distinct view to that of the statistician, who tends to regard these
+developments as exogenous to her engagement with data. Put another way,
+for the statistician, the historical shift from data to databases---from
+print to digital modes of communication---is often represented as a
+difference in degree, but for the scientist, who produces and lives
+among these data, it is a difference in kind. This difference in
+perspective was not without epistemic consequences. For one, Smith's
+definition clearly included data mining. For another, just as data
+mining had been excluded from the statistician's definition of data
+science, so too was a concern for databases excluded from what was
+considered worthwhile scientific work:
 
 > I recall being a proud young academic about 1970; I had just received
 > a research grant to build and study a scientific database, and I had
@@ -1744,8 +1745,8 @@ first-class member:
 > The emerging confluence of new technologies and approaches to science
 > has produced a new Data-Sensor-Computing-Model synergism. This has
 > been driven by numerous developments, including the information
-> explosion, the development of dynamic intelligent sensor networks
-> \..., the acceleration in high performance computing (HPC) power, and
+> explosion, the development of dynamic intelligent sensor networks ...,
+> the acceleration in high performance computing (HPC) power, and
 > advances in algorithms, models, and theories. *Among these, the most
 > extreme is the growth in new data*. The acquisition of data in all
 > scientific disciplines is rapidly accelerating and causing a nearly
@@ -1781,12 +1782,12 @@ is clear his definition of data science was not adopted. Instead, a
 conception of data science that included data mining and which would
 play a central role in the scientific enterprise was more reflective of
 the view expressed in Microsoft's contemporary and influential
-publication, *The Fourth Paradigm: Data-Intensive Scientific Discovery
-[@hey2009]*. Although the various authors did not use the term "data
+publication, *The Fourth Paradigm: Data-Intensive Scientific Discovery*
+[@hey2009]. Although the various authors did not use the term "data
 science" at all, the role played by data, data technologies, and
 specifically data mining, were highlighted throughout. To anticipate
-what follows, the fourth paradigm concept would later become one of the
-dominant, competing definitions of data science once the term is
+what was to follow, the fourth paradigm concept later became one of the
+dominant, competing definitions of data science once the term was
 popularized after 2008.
 
 If Microsoft's report did not use the term, other organizations cited
@@ -1977,8 +1978,8 @@ Internet---catalyzed by Berners-Lee's invention of a global hypertext
 system. According to what is perhaps the most popular article on the
 topic, *Harvard Business Review*'s "Data Scientist: The Sexiest Job of
 the 21^st^ Century," the term "data scientist" was "coined in 2008 by
-\... D.J. Patil, and Jeff Hammerbacher, then the respective leads of
-data and analytics efforts at LinkedIn and Facebook"
+... D.J. Patil, and Jeff Hammerbacher, then the respective leads of data
+and analytics efforts at LinkedIn and Facebook"
 [@davenport2012].[^ds-from-1963-to-2012-17] Although on its face this
 claim is obviously false, it is apparently correct in having identified
 the first usages of the term in this new context.
@@ -2083,7 +2084,7 @@ visualization, was quick to qualify Varian's use of the term
 > someone who is able to extract information from large datasets and
 > then present something of use to non-data experts [@yau2009].
 
-Here's what Varian actually said:
+This is what Varian actually said:
 
 > I think statisticians are part of it, but it's just a part. *You also
 > want to be able to visualize the data, communicate the data, and
@@ -2116,8 +2117,8 @@ data scientist:
 > And after two years of highlighting visualization on FlowingData, it
 > seems collaborations between the fields are growing more common, but
 > more importantly, computational information design edges closer to
-> reality. We're seeing *data scientists* -- people who can do it all --
-> emerge from the rest of the pack.
+> reality. We're seeing *data scientists*---people who can do it
+> all---emerge from the rest of the pack.
 >
 > . . .
 >
@@ -2177,23 +2178,24 @@ Varian, and to qualify this usage in a manner similar to Varian:
 We may note here an important difference between how the two bloggers,
 closer to the reality being described, and the established-media
 journalist represented the new development heralded by Varian: whereas
-Lohr saw an expanded division of labor, Yau and Driscoll envisioned an
-entirely new role, something akin to the "whole statistician" described
-above, although combining different elements. In any case, we see that
-it is at this precise point that the term "data scientist" begins to be
-used in the new context later described by the *HBR*.
+Lohr saw an expanded for a traditional role, Yau and Driscoll envisioned
+an entirely new role, something akin to the "whole statistician"
+described above, although combining different elements. In any case, we
+see that it is at this precise point that the term "data scientist"
+begins to be used in the new context later described and promoted by the
+*HBR*.
 
 In September 2010, two short but highly influential blog posts appeared
 that sought to codify this conception of data science, which had by then
-reached the status of buzz word among participants of the technology
-conference circuit. The first was Drew Conway's "The Data Science Venn
-Diagram," which defined the field as the intersection of three areas:
-"hacking skills, math and stats knowledge, and substantive expertise"
-[@conway2010]. Conway's post followed his attending an "unconference to
-help O'Reily \[sic\] organize their upcoming Strata conference," where
-he detected "the utter lack of agreement on what a curriculum on this
-subject would look like." His rationale for the three areas was the
-following:
+reached the status of buzzword among participants of the technology
+conference circuit. The first was Drew Conway's now famous "The Data
+Science Venn Diagram," which defined the field as the intersection of
+three areas: "hacking skills, math and stats knowledge, and substantive
+expertise" [@conway2010]. Conway's post followed his attending an
+"unconference to help O'Reily \[sic\] organize their upcoming Strata
+conference," where he detected "the utter lack of agreement on what a
+curriculum on this subject would look like." His rationale for the three
+areas was the following:
 
 > ... we spent a lot of time talking about "where" a course on data
 > science might exist at a university. The conversation was largely
@@ -2285,8 +2287,8 @@ Note that the idea of a data analyst *looking* for "usable data" as a
 first resort is anathema to that approach, at least in principle.
 
 In 2011, O'Reilly, whose role in the promotion of data science is worth
-its own investigation, produced a series of influential blog posts and
-reports that sought to codify and amplify the definition developed by
+its own study, produced a series of influential blog posts and reports
+that sought to codify and amplify the definitions developed by
 Hammerbacher, Yau, Conway, Mason, and Wiggins. The definition produced
 was consistent with the classical version, but strongly inflected by the
 new business context. For example, Loukides' in "What is Data Science?"
@@ -2474,7 +2476,7 @@ former:
 > disciplines in several important ways. To start, the raw material, the
 > "data" part of data science, is increasingly heterogeneous and
 > unstructured text, images, video often emanating from networks with
-> complex relationships between their entities. \... Analysis, including
+> complex relationships between their entities. ... Analysis, including
 > the combination of the two types of data, requires integration,
 > interpretation, and sense making that is increasingly derived through
 > tools from computer science, linguistics, econometrics, sociology, and
@@ -3045,13 +3047,13 @@ https://doi.org/10.2307/1927089.
 https://doi.org/10.1038/2031337d0.
 
 Appropriations, United States Congress House. 1958. *Second Supplemental
-Appropriation Bill: 1958, Hearings \... 85th Congress, 2d Session*.
+Appropriation Bill: 1958, Hearings ... 85th Congress, 2d Session*.
 
 ---------. 1965. *Independent Offices Appropiations for 1966: Hearings
-\... 89th Congress, 1st Session, Part 3*.
+... 89th Congress, 1st Session, Part 3*.
 
 Appropriations, United States Congress House Committee on. 1970.
-*Department of Defense Appropriations for 1971: Hearings \...
+*Department of Defense Appropriations for 1971: Hearings ...
 Ninety-First Congress, Second Session*. U.S. Government Printing Office.
 
 Bell, Gordon, Jim Gray, and Alex Szalay. 2007. "Petascale Computational
@@ -3072,7 +3074,7 @@ Breiman, Leo. 2001. "Statistical Modeling: The Two Cultures."
 https://doi.org/10.1214/ss/1009213726.
 
 Broman, Karl. 2013. "Data Science Is Statistics." *The Stupidest
-Thing\...* (blog). April 5, 2013.
+Thing...* (blog). April 5, 2013.
 https://kbroman.wordpress.com/2013/04/05/data-science-is-statistics/.
 
 Bryan, Jennifer, and Hadley Wickham. 2017. "Data Science: A Three Ring
