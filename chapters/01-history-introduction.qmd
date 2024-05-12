@@ -6,16 +6,21 @@ editor:
 
 # Introduction
 
-::: {.epigraph .hidden}
-The interests of data scientists---the information and computer
+::: epigraph
+*The interests of data scientists---the information and computer
 scientists, database and software engineers and programmers,
 disciplinary experts, curators and expert annotators, librarians,
 archivists, and others, who are crucial to the successful management of
 a digital data collection---lie in having their creativity and
-intellectual contributions fully recognized.
+intellectual contributions fully recognized.*
 
-National Science Board, "Long-Lived Digital Collections: Enabling
+National Science Board, 2005, "Long-Lived Digital Collections: Enabling
 Research and Education in the 21st Century" [@simberloff2005: 27].
+
+*Data and its management is still the essence of data science.*
+
+Jeffrey D. Ullman, 2020, "The Battle for Data Science" [@ullman2020:
+13].
 :::
 
 Data science today is characterized by a paradox. The large number and

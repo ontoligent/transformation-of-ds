@@ -58,6 +58,10 @@ HBR \| US \| 2012
 
 :   Data scientists as those who "make discoveries while swimming in \[the deluge of\] data," "bring structure to large quantities of formless data and make analysis possible," "identify rich data sources, join them with other, potentially incomplete data sources, and cleaning the resulting set," "help decision makers shift from ad hoc analysis to an ongoing conversation with data," "are creative in displaying information visually and making the patterns they find clear and compelling," and "advise executives and product managers on the implications of the data for products, processes, and decisions'" [@davenportDataScientistSexiest2012].
 
+
+Zhu, Yangyong, and Yun Xiong. 2015. “Defining Data Science.” arXiv:1501.05039 [Cs], January. http://arxiv.org/abs/1501.05039.
+
+
 EDISON Data Science Framework \| Europe \| 2017
 
 :   Data Science is the extraction of actionable knowledge directly from data through a process of discovery, or hypothesis formulation and hypothesis testing. It can also be understood as the activities happening in the processing layer of the system architecture, against data stored in the data layer, in order to extract knowledge from the raw data [@demchenko2017a: 8].

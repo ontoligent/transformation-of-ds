@@ -31,6 +31,10 @@ book:
     chapters:
     - chapters/00-synopsis.qmd               # Synopsis    
     - chapters/08-history-interpretation.qmd # Conclusion
+
+  - part: "Notes"
+    chapters:
+    - chapters/notes/the-datasphere.qmd
   
   - references.qmd
   # appendices:

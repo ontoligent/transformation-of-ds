@@ -39,3 +39,9 @@
 .comment, .hidden {
     display: None;
 }
+
+#figure-exchange-spheres {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+}

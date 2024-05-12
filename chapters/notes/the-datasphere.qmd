@@ -1,0 +1,91 @@
+# The Datasphere
+
+## Intro
+
+This paper introduces a formal definition of the datasphere along with a theoretical framework with which to make the concept useful for interpreting contemporary social changes. The essential idea is that we inhabit a globally distributed infrastructure of data producing, processing, and transmitting devices which together constitute a dominant social medium within which all human life is shaped. This encompassing network is called the datasphere. The datasphere constitutes an historically unique social medium—on the order of language, ritual, literacy, and money—which has had and continues to have an influence on the structure and function of core social institutions at all levels, including kinship, religion, the economy, and government.[^the-datasphere-1]
+
+[^the-datasphere-1]: The term "social medium" is used here in the classical sociological sense that dates back to the nineteenth century [@lewes1874; @firth1951]. This usage refers to all core media forms that make social life possible, not just contemporary internet-based social media apps. The most primary social medium is language, but the term includes all media forms with which humans communicate and construct social institutions, including digital data.
+
+-   Define social medium
+-   institution
+-   historically unique
+
+## Definition
+
+The datasphere ...
+
+> If Big Data refers to an economic and cultural shift in the nature of big data, it also indexes a historical transformation in the social organization of knowledge. This transformation is the most recent episode in a decades-long development of a global and capillary network of electronic devices that produce and consume data, embedded in society’s major sectors, including government, medicine, finance, education, and business. This network is not an abstraction; it is not virtual. It is a concrete construction of technical and social elements that has developed within the human biosphere, and that possesses a geography and structure comparable to that of the free market as described by Karl Polanyi in The Great Transformation,3 but on a larger scale. This system goes by many names, ranging from the literary, such as William Gibson’s “cyberspace,” to the social scientific, such as Manuel Castells’s “space of flows” and Shoshana Zuboff’s “surveillance capitalism.”4 While each of these has merit as a lens with which to envision the human dimension of Big Data, we call this system the datasphere, borrowing a term popularized by Douglas Rushkoff but more clearly developed, for our purposes, by Simson Garfinkel, who defines the term as the concrete infrastructure of machine-readable data collection, aggregation, and institutional use.
+>
+> [@alvarado2017]
+
+## Related concepts
+
+-   Datafication
+-   Informatization
+-   Datanature
+-   Data deluge
+-   Big Data
+
+## On Big Data
+
+-   Two meanings/usages: narrow (academic) and wide (commercial)
+-   Easy to dismiss the latter, but it captures contextual information that is lost with the academic (pedantic) definition
+-   Big Data refers to a socio-technical formation, not a specific form of data
+-   Big Data is one data becomes a social medium
+
+## Previous usages
+
+-   Rushkoff
+-   Garfinkle
+-   Bergé
+-   Alvarado
+
+## Historical overview
+
+Networked computing is the condition of possibility for the datasphere.
+
+-   ARPAnet
+
+## Material form
+
+-   Internet
+-   IoT
+-   Web3
+
+## As primary context for DS, AI
+
+-   AIs are nodes within the datasphere
+
+## As Sphere of Exchange
+
+```{=html}
+<!--
+<div style="text-align: center;">
+$M_{4A} \rightarrow M_{4B}$<br/>
+$M_{3A} \rightarrow H_3 \rightarrow M_{3B}$<br/>
+$H_{2A} \rightarrow M_2 \rightarrow H_{2B}$<br/>
+$H_{1A} \rightarrow H_{1B}$
+</div>
+-->
+```
+| Level | Sphere                           | Social Media      | Mediation                |
+|-------|----------------------------------|-------------------|--------------------------|
+| 4     | $M \rightarrow M'$               |                   | Indifferent, singularity |
+| 3     | $M \rightarrow H \rightarrow M'$ | Web3, LLMs        | Encompassed              |
+| 2     | $H \rightarrow M \rightarrow H'$ | BBS, Web          | Thick                    |
+| 1     | $H \rightarrow H'$               | Oral, Text, Phone | Thin                     |
+
+# Chapters / Essays
+
+-   The Datasphere and Spheres of Exchange
+-   AIs as social agents
+-   Reclaiming social media
+-   A brief history of the database (accidental sociality)
+-   The Political Economy of LLMs
+
+::: {#figure-exchange-spheres .figure style="text-align: center; font-family: serif;"}
+M ➞ M'\
+M ➞ H ➞ M'\
+H ➞ M ➞ H'\
+H ➞ H'
+:::
